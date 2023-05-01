@@ -1,7 +1,10 @@
-﻿namespace UI;
+﻿using DataLayer.Interfaces;
+using DataLayer.Services;
+
+namespace UI;
 
 public partial class MainPage : ContentPage
-{
+{	
 	int count = 0;
 
 	public MainPage()
@@ -11,14 +14,15 @@ public partial class MainPage : ContentPage
 
 	private void OnCounterClicked(object sender, EventArgs e)
 	{
-		count++;
+		ICategoryRepository repo = new CategoryRepository();
+		var categories = repo.GetCategories();
+		repo.Create(new DataLayer.Entities.Category()
+		{
+			Id = 0,
+			Title = "Salam"
+		});
 
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
+		categories = repo.GetCategories();
 	}
 }
 

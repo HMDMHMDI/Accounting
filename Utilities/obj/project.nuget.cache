@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "pJGeoovDqb9G0pGLb2nJjFdPyJDkSbfd1ZxFL4qkv7zW9niTm6OoMRUuqQ37Nj+fNA9PjtxRUuoPNtJORzSZTA==",
+  "dgSpecHash": "tKxArO5XX1W9AJf82CEMVrkySnTTxDmqWz3Ahl79RayTvZ41/iTsce+5zRAwhHIZdWDk6JhhHR1a1Q5SndywIw==",
   "success": true,
   "projectFilePath": "/Users/hamed/Desktop/Accounting/Utilities/Utilities.csproj",
   "expectedPackageFiles": [
     "/Users/hamed/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
@@ -14,6 +15,9 @@
     "/Users/hamed/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.maui.graphics/7.0.81/microsoft.maui.graphics.7.0.81.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/salaros.configparser/0.3.2/salaros.configparser.0.3.2.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/wakatime/8.1.11/wakatime.8.1.11.nupkg.sha512",
     "/Users/hamed/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/Users/hamed/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/Users/hamed/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

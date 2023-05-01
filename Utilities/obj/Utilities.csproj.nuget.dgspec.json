@@ -84,6 +84,10 @@
               "target": "Package",
               "version": "[7.0.81, )",
               "autoReferenced": true
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
             }
           },
           "imports": [
@@ -145,6 +149,10 @@
               "target": "Package",
               "version": "[7.0.81, )",
               "autoReferenced": true
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
             },
             "Xamarin.Android.Glide": {
               "suppressParent": "All",
@@ -275,6 +283,10 @@
               "target": "Package",
               "version": "[7.0.81, )",
               "autoReferenced": true
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
             }
           },
           "imports": [
@@ -339,6 +351,10 @@
               "target": "Package",
               "version": "[7.0.81, )",
               "autoReferenced": true
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
             }
           },
           "imports": [

@@ -85,9 +85,17 @@
               "version": "[7.0.81, )",
               "autoReferenced": true
             },
-            "MySql.EntityFrameworkCore": {
+            "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[2.1.4, )"
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -150,9 +158,13 @@
               "version": "[7.0.81, )",
               "autoReferenced": true
             },
-            "MySql.EntityFrameworkCore": {
+            "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[2.1.4, )"
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
             },
             "Xamarin.Android.Glide": {
               "suppressParent": "All",
@@ -219,6 +231,10 @@
               "target": "Package",
               "version": "[1.7.0.1, )",
               "autoReferenced": true
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -284,9 +300,17 @@
               "version": "[7.0.81, )",
               "autoReferenced": true
             },
-            "MySql.EntityFrameworkCore": {
+            "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[2.1.4, )"
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [
@@ -352,9 +376,17 @@
               "version": "[7.0.81, )",
               "autoReferenced": true
             },
-            "MySql.EntityFrameworkCore": {
+            "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[2.1.4, )"
+            },
+            "WakaTime": {
+              "target": "Package",
+              "version": "[8.1.11, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           },
           "imports": [

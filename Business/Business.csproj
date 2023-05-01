@@ -20,4 +20,7 @@
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>
 	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="WakaTime" Version="8.1.11" />
+	</ItemGroup>
 </Project>
