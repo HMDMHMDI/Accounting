@@ -39,3 +39,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/hamed/Desktop/Accounting/UI/Windows/Person/CreatePersonPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UI.Windows.Person.CreatePersonPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Windows/Person/CreatePersonPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Windows/Person/CreatePersonPage.xaml

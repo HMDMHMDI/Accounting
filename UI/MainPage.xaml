@@ -5,11 +5,12 @@
 
     <ScrollView>
         <VerticalStackLayout>
-            <Entry WidthRequest="500" HeightRequest="40" BackgroundColor="AliceBlue"  ></Entry>
+            <Entry x:Name="txtCategory" WidthRequest="500" HeightRequest="40" BackgroundColor="AliceBlue"  ></Entry>
             <Button Text="Click Me to Add on DB" WidthRequest="250" HeightRequest="20"
                     Clicked="OnCounterClicked"
 
                     ></Button>
+            <Button Text="Add People" Clicked="Button_Clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 

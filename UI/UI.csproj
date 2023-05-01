@@ -59,4 +59,12 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Windows\" />
+	  <None Remove="Windows\Person\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Windows\" />
+	  <Folder Include="Windows\Person\" />
+	</ItemGroup>
 </Project>
