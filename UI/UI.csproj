@@ -62,9 +62,13 @@
 	<ItemGroup>
 	  <None Remove="Windows\" />
 	  <None Remove="Windows\Person\" />
+	  <None Remove="Windows\Product\" />
+	  <None Remove="Windows\Category\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Windows\" />
 	  <Folder Include="Windows\Person\" />
+	  <Folder Include="Windows\Product\" />
+	  <Folder Include="Windows\Category\" />
 	</ItemGroup>
 </Project>

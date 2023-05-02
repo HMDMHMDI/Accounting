@@ -10,6 +10,6 @@ namespace DataLayer.Interfaces
 		void Create(Person person);
 		void Edit(Person person);
 		void Delete(int id);
+		void Delete(Person person);
 	}
 }
-

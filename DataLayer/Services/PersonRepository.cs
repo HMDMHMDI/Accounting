@@ -27,6 +27,11 @@ namespace DataLayer.Services
           
         }
 
+        public void Delete(Person person)
+        {
+            _connection.Delete(person);
+        }
+
         public void Edit(Person person)
         {
             _connection.Update(person);

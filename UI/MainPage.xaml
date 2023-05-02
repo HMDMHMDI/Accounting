@@ -4,13 +4,14 @@
              x:Class="UI.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout>
+        <VerticalStackLayout Spacing="10">
             <Entry x:Name="txtCategory" WidthRequest="500" HeightRequest="40" BackgroundColor="AliceBlue"  ></Entry>
             <Button Text="Click Me to Add on DB" WidthRequest="250" HeightRequest="20"
                     Clicked="OnCounterClicked"
 
-                    ></Button>
+             ></Button>
             <Button Text="Add People" Clicked="Button_Clicked"/>
+            <Button Text="Click To Go Products section" Clicked="Button_Clicked_1"></Button>
         </VerticalStackLayout>
     </ScrollView>
 

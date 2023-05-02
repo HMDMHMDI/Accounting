@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Windows.Product.CreateProductPage"
+             Title="CreateProductPage">
+    <VerticalStackLayout HorizontalOptions="Center" Spacing="20"  Margin="0,40,0,0">
+        <HorizontalStackLayout Spacing="20">
+            <Label Text="Product Name" Margin="0,10,0,0"></Label>
+            <Entry Placeholder="Product Name" x:Name="txtPName" ></Entry>
+            <Label Text="Product Price" Margin="0,10,0,0"></Label>
+            <Entry Placeholder="Product Price" x:Name="txtPPrice" ></Entry>
+        </HorizontalStackLayout>
+        <Label Text="Product Count"></Label>
+        <Entry Placeholder="Prodouct Count" x:Name="txtPCount"></Entry>
+
+        <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked" ></Button>
+        <Button Text="Show Data" x:Name="btnShowData" Clicked="btnShowData_Clicked"></Button>
+    </VerticalStackLayout>
+</ContentPage>
