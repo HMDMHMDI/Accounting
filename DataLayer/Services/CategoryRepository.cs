@@ -24,10 +24,14 @@ namespace DataLayer.Services
             var category = GetCategoryById(id);
             _connection.Delete(category);
         }
+        public void Delete(Category category)
+        {
+            _connection.Delete(category);
+        }
 
         public void Edit(Category category)
         {
-            throw new NotImplementedException();
+            _connection.Update(category);
         }
 
         public List<Category> GetCategories()

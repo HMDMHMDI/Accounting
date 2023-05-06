@@ -10,6 +10,7 @@ namespace DataLayer.Interfaces
 		void Create(Category category);
 		void Edit(Category category);
 		void Delete(int id);
+		void Delete(Category category);
 
 	}
 }

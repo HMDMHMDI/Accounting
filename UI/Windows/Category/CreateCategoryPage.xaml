@@ -5,14 +5,10 @@
              Title="CreateCategoryPage">
     <VerticalStackLayout HorizontalOptions="Center" Spacing="20"  Margin="0,40,0,0">
         <HorizontalStackLayout Spacing="20">
-            <Label Text="FirstName" Margin="0,10,0,0"/>
-            <Entry  Placeholder="Enter FirstName" x:Name="txtFName" />
-            <Label Text="LastName" Margin="0,10,0,0"/>
-            <Entry Placeholder="Enter LastName" x:Name="txtLName" />
+            <Label Text="Title" Margin="0,10,0,0"/>
+            <Entry Placeholder="Enter Title" x:Name="txtTitle" />
         </HorizontalStackLayout>
 
-        <Label Text="PhoneNumber"/>
-        <Entry Placeholder="Enter PhoneNumber" x:Name="txtPhoneNumber"/>
         <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
         <Button Text="ShowData" x:Name="btnShowData" Clicked="btnShowData_Clicked"/>
     </VerticalStackLayout>
