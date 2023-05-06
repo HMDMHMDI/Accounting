@@ -4,12 +4,26 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:UI"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:categoryView="clr-namespace:UI.Windows.Category" 
+xmlns:personView="clr-namespace:UI.Windows.Person"
+    Shell.FlyoutBehavior="Flyout">
 
-    <ShellContent
-        Title="Sections"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+      <FlyoutItem Title="Cats"
+                Icon="cat.png">
+         <Tab>
+           <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
+
+       </Tab>
+       <Tab>
+           <ShellContent ContentTemplate="{DataTemplate categoryView:CreateCategoryPage}"/>
+       </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Dogs"
+                Icon="dog.png">
+       <Tab>
+           <ShellContent ContentTemplate="{DataTemplate personView:CreatePersonPage}" />
+       </Tab>
+    </FlyoutItem>
    
 </Shell>
 
