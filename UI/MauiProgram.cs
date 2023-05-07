@@ -16,3 +16,10 @@ public static class MauiProgram
         return builder.Build();
     }
 }
+
+//TODO: Collection views and list of unwritten models
+//TODO: Transaction Model
+//TODO: Status bar
+//TODO: Handle Custom buttons *
+//TODO: Business logic usage *
+//TODO: Design MainPage and related pages including wireframe *

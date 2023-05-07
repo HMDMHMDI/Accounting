@@ -28,15 +28,20 @@ public partial class CreateProductPage : ContentPage
         {
             _repo.Create(newProduct);
             await DisplayAlert("Information", "Your product is Added", "done");
+
         }
         else
         {
             _repo.Edit(newProduct);
             await DisplayAlert("Information", "Your product is Edited", "done");
             btnAdd.Text = "Add";
+
         }
-        //TODO:FIx this
         lstProducts.ItemsSource = _repo.GetAll();
+
+        //TODO:FIx this
+        ShowData();
+
 
     }
 

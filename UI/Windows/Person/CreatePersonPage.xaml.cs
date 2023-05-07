@@ -1,17 +1,20 @@
 ﻿using DataLayer.Interfaces;
 using DataLayer.Services;
 using DataLayer.Entities;
+using UI.Windows.Person;
 
 namespace UI.Windows.Person;
 
 public partial class CreatePersonPage : ContentPage
 {
 	private readonly IPersonRepository _repo;
+	CollectionView CollectionView = new();
 	private int _id = 0;
 	public CreatePersonPage()
 	{
 		InitializeComponent();
 		_repo = new PersonRepository();
+		clcPerson.ItemsSource = _repo.GetAll();
 	}
 
 	async void btnAdd_Clicked(System.Object sender, System.EventArgs e)
@@ -38,9 +41,11 @@ public partial class CreatePersonPage : ContentPage
 		txtFName.Text = string.Empty;
 		txtLName.Text = string.Empty;
 		txtPhoneNumber.Text = string.Empty;
+        clcPerson.ItemsSource = _repo.GetAll();
 
         await ShowData();
-	}
+
+    }
 
     async void btnShowData_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -78,6 +83,7 @@ public partial class CreatePersonPage : ContentPage
 				return;
 				//Reduced out if else chain زنجیر
 			}
+
         }
     }
 }

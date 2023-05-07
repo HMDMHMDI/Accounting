@@ -15,5 +15,26 @@
         <Entry Placeholder="Enter PhoneNumber" x:Name="txtPhoneNumber"/>
         <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
         <Button Text="ShowData" x:Name="btnShowData" Clicked="btnShowData_Clicked"/>
+        <CollectionView x:Name="clcPerson" ItemsSource="{Binding .}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <HorizontalStackLayout Spacing="20">
+
+                            <Label Text="FullName : "></Label>
+                            <Label Grid.Column="1" Text="{Binding FName}" FontAttributes="Bold"/>
+                            <Label Text="LastName : "></Label>
+                            <Label Grid.Column="1" Text="{Binding LName}" FontAttributes="Bold"/>
+                            <Label Text="PhoneNumber : " ></Label>
+                            <Label Grid.Column="1" Text="{Binding PhoneNumber}"/>
+
+                        </HorizontalStackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
     </VerticalStackLayout>
+
+
 </ContentPage>

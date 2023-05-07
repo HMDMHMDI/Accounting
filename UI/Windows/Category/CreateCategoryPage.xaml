@@ -11,5 +11,28 @@
 
         <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
         <Button Text="ShowData" x:Name="btnShowData" Clicked="btnShowData_Clicked"/>
+        <CollectionView  x:Name="clcCategory" ItemsSource="{Binding .}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+
+                    <Grid>
+                        <Frame
+                        BorderColor="Green"
+                        CornerRadius="50" Padding="15"/>
+                        <BoxView Color="LightGrey"></BoxView>
+                        <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                            <Label Text="Id : "></Label>
+                            <Label Text="{Binding Title}" Grid.Column="1" FontAttributes="Bold"></Label>
+                            <Label Text="Title : "></Label>
+                            <Label Text="{Binding Title}" Grid.Column="1" FontAttributes="Bold"></Label>
+                        </HorizontalStackLayout>
+
+                    </Grid>
+
+                </DataTemplate>
+
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
     </VerticalStackLayout>
 </ContentPage>

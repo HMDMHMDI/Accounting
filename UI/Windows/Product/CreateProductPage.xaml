@@ -16,50 +16,51 @@
         <Entry Placeholder="Prodouct Count" x:Name="txtPCount"></Entry>
 
         <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked" ></Button>
-        
+
         <ListView IsPullToRefreshEnabled="True" x:Name="lstProducts" ItemsSource="{Binding .}">
             <ListView.Header>
-        <StackLayout Margin="20" BackgroundColor="Black">
-            <Label Margin="10,0,0,0"
+                <StackLayout Margin="20" BackgroundColor="Black">
+                    <Label Margin="10,0,0,0"
                    Text="Products"
                    FontSize="12"
                    FontAttributes="Bold" />
-        </StackLayout>
-    </ListView.Header>
-    <ListView.ItemTemplate>
-        <DataTemplate>
-            <ViewCell>
-                <HorizontalStackLayout Spacing="100" >
-                    
-                    
-                 
-                   <Label Text="ID"></Label>
-                    <Label Grid.Column="1"
+                </StackLayout>
+            </ListView.Header>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <HorizontalStackLayout Spacing="100" >
+
+
+
+                            <Label Text="ID"></Label>
+                            <Label Grid.Column="1"
                            Text="{Binding Id}"
                            FontAttributes="Bold" />
                             <Label Text="Name" />
-                                <Label Grid.Column="1"
+                            <Label Grid.Column="1"
                            Text="{Binding Name}"
                            FontAttributes="Bold" />
                             <Label Text="Price"/>
-                                <Label Grid.Column="1"
+                            <Label Grid.Column="1"
                            Text="{Binding Price}"
                            FontAttributes="Bold" />
                             <Label Text="Count"/>
-                                <Label Grid.Column="1"
+                            <Label Grid.Column="1"
                            Text="{Binding Count}"
                            FontAttributes="Bold" />
+                            <Label Text="{Binding CategoryId}"/>
                             <HorizontalStackLayout>
 
-                                    <Button Text="Delete" BackgroundColor="Red"/>
-                            <Button Text="Edit" BackgroundColor="Orange"/>
+                                <Button Text="Delete" BackgroundColor="Red"/>
+                                <Button Text="Edit" BackgroundColor="Orange"/>
                             </HorizontalStackLayout>
-                        
-                   
-                </HorizontalStackLayout>
-            </ViewCell>
-        </DataTemplate>
-    </ListView.ItemTemplate>
-</ListView>
+
+
+                        </HorizontalStackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </VerticalStackLayout>
 </ContentPage>

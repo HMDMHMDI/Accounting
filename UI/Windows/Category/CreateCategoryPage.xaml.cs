@@ -12,6 +12,7 @@ public partial class CreateCategoryPage : ContentPage
     {
         _repo = new CategoryRepository();
         InitializeComponent();
+        clcCategory.ItemsSource = _repo.GetCategories();
     }
 
     async void btnShowData_Clicked(System.Object sender, System.EventArgs e)
@@ -37,6 +38,8 @@ public partial class CreateCategoryPage : ContentPage
         }
         _id = 0;
         txtTitle.Text = string.Empty;
+        clcCategory.ItemsSource = _repo.GetCategories();
+
         await ShowData();
     }
     private async Task ShowData()

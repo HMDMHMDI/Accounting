@@ -6,24 +6,8 @@
     xmlns:local="clr-namespace:UI"
     xmlns:categoryView="clr-namespace:UI.Windows.Category" 
 xmlns:personView="clr-namespace:UI.Windows.Person"
-    Shell.FlyoutBehavior="Flyout">
-
-      <FlyoutItem Title="Cats"
-                Icon="cat.png">
-         <Tab>
-           <ShellContent ContentTemplate="{DataTemplate local:MainPage}"/>
-
-       </Tab>
-       <Tab>
-           <ShellContent ContentTemplate="{DataTemplate categoryView:CreateCategoryPage}"/>
-       </Tab>
-    </FlyoutItem>
-    <FlyoutItem Title="Dogs"
-                Icon="dog.png">
-       <Tab>
-           <ShellContent ContentTemplate="{DataTemplate personView:CreatePersonPage}" />
-       </Tab>
-    </FlyoutItem>
+    Shell.FlyoutBehavior="Disabled">
+    
    
 </Shell>
 
