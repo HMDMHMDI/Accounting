@@ -40,7 +40,7 @@ public partial class CreateProductPage : ContentPage
         lstProducts.ItemsSource = _repo.GetAll();
 
         //TODO:FIx this
-        ShowData();
+        await ShowData();
 
 
     }
@@ -51,6 +51,8 @@ public partial class CreateProductPage : ContentPage
     }
 
 
+
+
     private async Task ShowData()
     {
 
@@ -59,7 +61,7 @@ public partial class CreateProductPage : ContentPage
             var ShouldEdit = await DisplayAlert(item.Id.ToString(), item.Name + " \n " + item.Price + " \n " + item.Count, "Actions", "Next");
             if (ShouldEdit)
             {
-                 var Action = await DisplayAlert("Information" , "Choose Your Action", "Edit" , "Delete");
+                var Action = await DisplayAlert("Information", "Choose Your Action", "Edit", "Delete");
                 var product = _repo.GetById(item.Id);
                 if (Action)
                 {

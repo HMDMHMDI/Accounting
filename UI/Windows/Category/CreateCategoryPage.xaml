@@ -16,10 +16,9 @@
                 <DataTemplate>
 
                     <Grid>
-                        <Frame
-                        BorderColor="Green"
+                        <Frame 
+                        BorderColor="Red"
                         CornerRadius="50" Padding="15"/>
-                        <BoxView Color="LightGrey"></BoxView>
                         <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
                             <Label Text="Id : "></Label>
                             <Label Text="{Binding Title}" Grid.Column="1" FontAttributes="Bold"></Label>

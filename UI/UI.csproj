@@ -73,4 +73,7 @@
 	  <Folder Include="Windows\Product\" />
 	  <Folder Include="Windows\Category\" />
 	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\product.svg" />
+	</ItemGroup>
 </Project>

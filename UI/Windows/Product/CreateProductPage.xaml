@@ -52,8 +52,8 @@
                             <Label Text="{Binding CategoryId}"/>
                             <HorizontalStackLayout>
 
-                                <Button Text="Delete" BackgroundColor="Red"/>
-                                <Button Text="Edit" BackgroundColor="Orange"/>
+                                <Button Text="Actions" Clicked="btnShowData_Clicked" BackgroundColor="Red"/>
+                                
                             </HorizontalStackLayout>
 
 
