@@ -14,6 +14,12 @@ public partial class CreateProductPage : ContentPage
         _cateRepo = new CategoryRepository();
         lstProducts.ItemsSource = _repo.GetAll();
         pickCategory.ItemsSource = _cateRepo.GetCategories();
+        
+    }
+
+    void Test(int id)
+    {
+        DisplayAlert(id.ToString(), id.ToString(), id.ToString());
     }
 
     async void btnAdd_Clicked(System.Object sender, System.EventArgs e)
@@ -24,11 +30,10 @@ public partial class CreateProductPage : ContentPage
         newProduct.Count = txtPCount.Text;
         newProduct.CategoryId = (pickCategory.SelectedItem as Category).Id;
         newProduct.Id = _id;
-        if (_id == 0)
+        if (_id == 0 )
         {
             _repo.Create(newProduct);
             await DisplayAlert("Information", "Your product is Added", "done");
-
         }
         else
         {
@@ -37,11 +42,11 @@ public partial class CreateProductPage : ContentPage
             btnAdd.Text = "Add";
 
         }
+        _id = 0;
         lstProducts.ItemsSource = _repo.GetAll();
 
-        //TODO:FIx this
-        await ShowData();
 
+        
 
     }
 
@@ -68,6 +73,9 @@ public partial class CreateProductPage : ContentPage
                     txtPName.Text = product.Name;
                     txtPPrice.Text = product.Price;
                     txtPCount.Text = product.Count;
+                    var category = _cateRepo.GetCategoryById(product.CategoryId);
+                    pickCategory.SelectedItem = category;
+                    pickCategory.SelectedIndex = (pickCategory.ItemsSource as List<Category>).IndexOf(category);
                     btnAdd.Text = "Edit";
                     _id = product.Id;
                     return;

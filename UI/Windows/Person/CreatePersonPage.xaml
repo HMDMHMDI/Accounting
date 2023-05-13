@@ -19,6 +19,7 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid>
+
                         <HorizontalStackLayout Spacing="20">
 
                             <Label Text="FullName : "></Label>

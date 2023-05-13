@@ -9,25 +9,32 @@
             <Entry Placeholder="Enter Title" x:Name="txtTitle" />
         </HorizontalStackLayout>
 
-        <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
+        <Button BorderColor="AliceBlue" Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
         <Button Text="ShowData" x:Name="btnShowData" Clicked="btnShowData_Clicked"/>
         <CollectionView  x:Name="clcCategory" ItemsSource="{Binding .}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                
+                                <SwipeItem Text="Edit" BackgroundColor="White" Clicked="btnEdit_clicked" CommandParameter="{Binding Id}"/>
+                                <SwipeItem Text="Create" BackgroundColor="White" Clicked="btnDelete_Clicked"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
                     <Grid>
                         <Frame 
                         BorderColor="Red"
                         CornerRadius="50" Padding="15"/>
                         <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
                             <Label Text="Id : "></Label>
-                            <Label Text="{Binding Title}" Grid.Column="1" FontAttributes="Bold"></Label>
+                            <Label Text="{Binding Id}" Grid.Column="1" FontAttributes="Bold"></Label>
                             <Label Text="Title : "></Label>
                             <Label Text="{Binding Title}" Grid.Column="1" FontAttributes="Bold"></Label>
                         </HorizontalStackLayout>
 
                     </Grid>
-
+                        </SwipeView>
                 </DataTemplate>
 
             </CollectionView.ItemTemplate>

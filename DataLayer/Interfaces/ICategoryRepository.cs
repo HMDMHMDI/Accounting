@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using DataLayer.Entities;
 
 namespace DataLayer.Interfaces
@@ -11,7 +12,6 @@ namespace DataLayer.Interfaces
 		void Edit(Category category);
 		void Delete(int id);
 		void Delete(Category category);
-
-	}
+    }
 }
 

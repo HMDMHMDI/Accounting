@@ -2077,6 +2077,20 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -4167,6 +4181,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -6261,6 +6289,20 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -8351,6 +8393,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -10445,6 +10501,20 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -12535,6 +12605,20 @@
         },
         "build": {
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -14629,6 +14713,20 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -14943,6 +15041,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -15261,6 +15373,20 @@
           "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15575,6 +15701,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -15893,6 +16033,20 @@
           "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -16207,6 +16361,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -16525,6 +16693,20 @@
           "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -16839,6 +17021,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -17255,6 +17451,20 @@
           "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -17576,6 +17786,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -17901,6 +18125,20 @@
           "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -18222,6 +18460,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -18547,6 +18799,20 @@
           "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
+        }
+      },
       "DataLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -18865,6 +19131,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -19188,6 +19468,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/WakaTime.dll": {}
+        }
+      },
+      "Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DataLayer": "1.0.0",
+          "WakaTime": "8.1.11"
+        },
+        "compile": {
+          "bin/placeholder/Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Business.dll": {}
         }
       },
       "DataLayer/1.0.0": {
@@ -21908,6 +22202,11 @@
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
     },
+    "Business/1.0.0": {
+      "type": "project",
+      "path": "../Business/Business.csproj",
+      "msbuildProject": "../Business/Business.csproj"
+    },
     "DataLayer/1.0.0": {
       "type": "project",
       "path": "../DataLayer/DataLayer.csproj",
@@ -21916,6 +22215,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0-android33.0": [
+      "Business >= 1.0.0",
       "DataLayer >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -21937,6 +22237,7 @@
       "Xamarin.Google.Crypto.Tink.Android >= 1.7.0.1"
     ],
     "net7.0-ios16.1": [
+      "Business >= 1.0.0",
       "DataLayer >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -21947,6 +22248,7 @@
       "WakaTime >= 8.1.11"
     ],
     "net7.0-maccatalyst16.1": [
+      "Business >= 1.0.0",
       "DataLayer >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
@@ -21986,6 +22288,9 @@
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
           "projectReferences": {
+            "/Users/hamed/Desktop/Accounting/Business/Business.csproj": {
+              "projectPath": "/Users/hamed/Desktop/Accounting/Business/Business.csproj"
+            },
             "/Users/hamed/Desktop/Accounting/DataLayer/DataLayer.csproj": {
               "projectPath": "/Users/hamed/Desktop/Accounting/DataLayer/DataLayer.csproj"
             }
@@ -21994,6 +22299,9 @@
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "projectReferences": {
+            "/Users/hamed/Desktop/Accounting/Business/Business.csproj": {
+              "projectPath": "/Users/hamed/Desktop/Accounting/Business/Business.csproj"
+            },
             "/Users/hamed/Desktop/Accounting/DataLayer/DataLayer.csproj": {
               "projectPath": "/Users/hamed/Desktop/Accounting/DataLayer/DataLayer.csproj"
             }
@@ -22002,6 +22310,9 @@
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "projectReferences": {
+            "/Users/hamed/Desktop/Accounting/Business/Business.csproj": {
+              "projectPath": "/Users/hamed/Desktop/Accounting/Business/Business.csproj"
+            },
             "/Users/hamed/Desktop/Accounting/DataLayer/DataLayer.csproj": {
               "projectPath": "/Users/hamed/Desktop/Accounting/DataLayer/DataLayer.csproj"
             }

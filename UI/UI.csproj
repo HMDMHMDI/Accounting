@@ -60,20 +60,20 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+	  <ProjectReference Include="..\Business\Business.csproj" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="Windows\" />
 	  <None Remove="Windows\Person\" />
 	  <None Remove="Windows\Product\" />
 	  <None Remove="Windows\Category\" />
+	  <None Remove="Controls\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Windows\" />
 	  <Folder Include="Windows\Person\" />
 	  <Folder Include="Windows\Product\" />
 	  <Folder Include="Windows\Category\" />
-	</ItemGroup>
-	<ItemGroup>
-	  <BundleResource Include="Resources\Images\product.svg" />
+	  <Folder Include="Controls\" />
 	</ItemGroup>
 </Project>

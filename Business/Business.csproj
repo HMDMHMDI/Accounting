@@ -23,4 +23,13 @@
 	<ItemGroup>
 	  <PackageReference Include="WakaTime" Version="8.1.11" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Category\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Category\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\DataLayer\DataLayer.csproj" />
+	</ItemGroup>
 </Project>
