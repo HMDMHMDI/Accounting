@@ -10,7 +10,7 @@ namespace Business.Product
 			_repo = repo;
 			_product = product;
 		}
-		public int Create()
+		public int Create(DataLayer.Entities.Product _product)
 		{
 			if (string.IsNullOrEmpty(_product.Count) || string.IsNullOrEmpty(_product.Name) || string.IsNullOrEmpty(_product.Price))	
 			{

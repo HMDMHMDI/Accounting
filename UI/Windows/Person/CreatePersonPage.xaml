@@ -14,23 +14,33 @@
         <Label Text="PhoneNumber"/>
         <Entry Placeholder="Enter PhoneNumber" x:Name="txtPhoneNumber"/>
         <Button Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
-        <Button Text="ShowData" x:Name="btnShowData" Clicked="btnShowData_Clicked"/>
         <CollectionView x:Name="clcPerson" ItemsSource="{Binding .}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Grid>
+                    <SwipeView>
+                        <SwipeView.LeftItems>
+                            <SwipeItems>
+                                <SwipeItem Text="Show Data" Clicked="btnEdit_Clicked" CommandParameter="{Binding Id}"/>
+                                <SwipeItem Text="Delete" Clicked="btnDelete_Clicked" CommandParameter="{Binding Id}"/>
+                            </SwipeItems>
+                        </SwipeView.LeftItems>
+                        <Frame BorderColor="Red">
+                            <Grid>
 
-                        <HorizontalStackLayout Spacing="20">
+                                <HorizontalStackLayout Spacing="20">
 
-                            <Label Text="FullName : "></Label>
-                            <Label Grid.Column="1" Text="{Binding FName}" FontAttributes="Bold"/>
-                            <Label Text="LastName : "></Label>
-                            <Label Grid.Column="1" Text="{Binding LName}" FontAttributes="Bold"/>
-                            <Label Text="PhoneNumber : " ></Label>
-                            <Label Grid.Column="1" Text="{Binding PhoneNumber}"/>
+                                    <Label Text="FullName : "></Label>
+                                    <Label Grid.Column="1" Text="{Binding FName}" FontAttributes="Bold"/>
+                                    <Label Text="LastName : "></Label>
+                                    <Label Grid.Column="1" Text="{Binding LName}" FontAttributes="Bold"/>
+                                    <Label Text="PhoneNumber : " ></Label>
+                                    <Label Grid.Column="1" Text="{Binding PhoneNumber}"/>
 
-                        </HorizontalStackLayout>
-                    </Grid>
+                                </HorizontalStackLayout>
+                            </Grid>
+                        </Frame>
+                    </SwipeView>
+
                 </DataTemplate>
             </CollectionView.ItemTemplate>
 

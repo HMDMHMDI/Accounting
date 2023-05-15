@@ -2,88 +2,100 @@
 using DataLayer.Services;
 using DataLayer.Entities;
 using UI.Windows.Person;
+using Business.People;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace UI.Windows.Person;
 
 public partial class CreatePersonPage : ContentPage
 {
-	private readonly IPersonRepository _repo;
-	CollectionView CollectionView = new();
-	private int _id = 0;
-	public CreatePersonPage()
-	{
-		InitializeComponent();
-		_repo = new PersonRepository();
-		clcPerson.ItemsSource = _repo.GetAll();
-	}
+    private readonly IPersonRepository _repo;
+    CollectionView CollectionView = new();
+    private int _id = 0;
+    public CreatePersonPage()
+    {
+        InitializeComponent();
+        _repo = new PersonRepository();
+        clcPerson.ItemsSource = _repo.GetAll();
+    }
 
-	async void btnAdd_Clicked(System.Object sender, System.EventArgs e)
-	{
-		DataLayer.Entities.Person newPerson = new();
-		newPerson.FName = txtFName.Text;
-		newPerson.LName = txtLName.Text;
-		newPerson.PhoneNumber = txtPhoneNumber.Text;
-		newPerson.Id = _id;
-		if(_id == 0)
-		{
-
-		_repo.Create(newPerson);
-		await DisplayAlert("Done.", "The person was added.", "Ok");
-		}
-		else
-		{
-			_repo.Edit(newPerson);
-            await DisplayAlert("Done.", "The person was edited.", "Ok");
-			btnAdd.Text = "Add";
+    async void btnAdd_Clicked(System.Object sender, System.EventArgs e)
+    {
+        DataLayer.Entities.Person newPerson = new();
+        newPerson.FName = txtFName.Text;
+        newPerson.LName = txtLName.Text;
+        newPerson.PhoneNumber = txtPhoneNumber.Text;
+        newPerson.Id = _id;
+        if (_id == 0)
+        {
+            CreateNewPerson command = new CreateNewPerson(newPerson, _repo);
+            var res = command.Create(newPerson);
+            switch (res)
+            {
+                case -1:
+                    await DisplayAlert("Information", "Please Enter Value", "Done");
+                    return;
+                case -2:
+                    await DisplayAlert("Information", "You want to edit? go to edit section", "Done");
+                    return;
+            }
+            await DisplayAlert("Information", "Your Data Added", "Done");
 
         }
-		_id = 0;
-		txtFName.Text = string.Empty;
-		txtLName.Text = string.Empty;
-		txtPhoneNumber.Text = string.Empty;
+        else
+        {
+            DataLayer.Entities.Person person = new();
+            EditPeople edit = new EditPeople(person, _repo);
+            person.PhoneNumber = txtPhoneNumber.Text;
+            person.LName = txtLName.Text;
+            person.FName = txtFName.Text;
+            person.Id = _id;
+            var res = edit.Edit(person);
+            switch (res)
+            {
+                case -1:
+                    await DisplayAlert("Information", "Go To Create Section", "Done");
+                    return;
+            }
+            await DisplayAlert("Information", "Your Data Edited", "Done");
+
+        }
+        _id = 0;
+        txtFName.Text = string.Empty;
+        txtLName.Text = string.Empty;
+        txtPhoneNumber.Text = string.Empty;
         clcPerson.ItemsSource = _repo.GetAll();
 
-        await ShowData();
 
     }
 
-    async void btnShowData_Clicked(System.Object sender, System.EventArgs e)
+    void btnEdit_Clicked(System.Object sender, System.EventArgs e)
     {
-		await ShowData();
+        btnAdd.Text = "Edit";
+        _id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        var get = _repo.GetById(_id);
+        txtFName.Text = get.FName;
+        txtLName.Text = get.LName;
+        txtPhoneNumber.Text = get.PhoneNumber;
+        _id = get.Id;
     }
-
-	//async void that returns nothign is task
-	//async method that retusn something is Task<string> Task<int>
-
-	private async Task ShowData()
-	{
-        foreach (var item in _repo.GetAll())
+    async void btnDelete_Clicked(System.Object sender, System.EventArgs e)
+    {
+        int _id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        var get = _repo.GetById(_id);
+        DeletePeople delete = new DeletePeople(get, _repo);
+        var Confirm = await DisplayAlert("Information", "You Want to Delete This Category?", "Yes", "No");
+        if (Confirm)
         {
-			//Wnen accept parameter is passed the display alert retuns a boolean if accept true else false.
-			var shouldEdit = await DisplayAlert(item.Id.ToString(), item.FName + " " + item.LName + " \n " + item.PhoneNumber, "Actions","Next");
-
-			  
-			
-			if (shouldEdit)
-			{
-				var action = await DisplayAlert("Action", "Choose ur action.", "Edit", "Delete");
-
-                 var person = _repo.GetById(item.Id);
-				if (action)
-				{
-                    txtFName.Text = person.FName;
-                    txtLName.Text = person.LName;
-                    txtPhoneNumber.Text = person.PhoneNumber;
-                    btnAdd.Text = "Edit";
-                    _id = person.Id;
-					return;
-                }
-				
-				_repo.Delete(person);
-				return;
-				//Reduced out if else chain زنجیر
-			}
-
+            var res = delete.Delete(get);
+            switch (res)
+            {
+                case -1:
+                    await DisplayAlert("Information", "Doesnt Exist!", "Done");
+                    return;
+            }
+            await DisplayAlert("Information", "Your Data Deleted", "Done");
+            return;
         }
     }
 }

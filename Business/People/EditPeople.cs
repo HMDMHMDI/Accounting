@@ -10,7 +10,7 @@ namespace Business.People
 			_repo = repo;
 			_person = person;
 		}
-		public int Edit()
+		public int Edit(DataLayer.Entities.Person _person)
 		{
 			if (_person.Id <= 0 )	
 			{

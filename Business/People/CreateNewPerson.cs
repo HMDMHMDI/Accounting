@@ -10,13 +10,13 @@ namespace Business.People
 			_repo = repo;
 			_person = person;
 		}
-		public int Create()
+		public int Create(DataLayer.Entities.Person _person)
 		{
 			if (string.IsNullOrWhiteSpace( _person.FName) || string.IsNullOrWhiteSpace(_person.LName) || string.IsNullOrWhiteSpace(_person.PhoneNumber))	
 			{
 				return -1;
 			}
-			if (_person.Id > 0 || _person.Id == 0)	
+			if (_person.Id > 0)	
 			{
 				return -2;
 			}

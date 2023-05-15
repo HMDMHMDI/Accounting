@@ -11,7 +11,7 @@ namespace Business.Product
 			_product = product;
 		}
 
-		public int Delete()
+		public int Delete(DataLayer.Entities.Product _product)
 		{
 			if (_product.Id <= 0 )	
 			{

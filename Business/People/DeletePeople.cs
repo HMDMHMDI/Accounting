@@ -11,7 +11,7 @@ namespace Business.People
 			_person = person;
 		}
 
-		public int Delete()
+		public int Delete(DataLayer.Entities.Person _person)
 		{
 			if (_person.Id <= 0)	
 			{

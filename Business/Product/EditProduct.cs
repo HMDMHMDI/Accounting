@@ -11,7 +11,7 @@ namespace Business.Product
 			_product = product;
 		}
 
-		public int Edit()
+		public int Edit(DataLayer.Entities.Product _product)
 		{
 			if (_product.Id <= 0)
 			{

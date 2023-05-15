@@ -19,7 +19,7 @@ public partial class CreateCategoryPage : ContentPage
         clcCategory.ItemsSource = _repo.GetCategories();
     }
 
-    async void btnEdit_clicked(System.Object sender, System.EventArgs e)
+    void btnEdit_clicked(System.Object sender, System.EventArgs e)
     {
         btnAdd.Text = "Edit";
         _id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
@@ -34,8 +34,8 @@ public partial class CreateCategoryPage : ContentPage
         var get = _repo.GetCategoryById(_id);
         DeleteCategory delete = new DeleteCategory(get , _repo);
         
-        var deleted = await DisplayAlert("Information", "You Want to Delete This Category?", "Yes", "No");
-        if (deleted)
+        var Confirm = await DisplayAlert("Information", "You Want to Delete This Category?", "Yes", "No");
+        if (Confirm)
         {
             var res = delete.Delete(get);
             switch (res)    
