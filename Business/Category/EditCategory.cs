@@ -14,7 +14,7 @@ namespace Business.Category
         public int Edit(DataLayer.Entities.Category _category)
         {
 
-            if (_category.Id <= 0)
+            if (_category.Id < 0)
             {
                 return -2;
             }

@@ -3,6 +3,8 @@ using DataLayer.Interfaces;
 using DataLayer.Services;
 using DataLayer.Entities;
 using Business.Category;
+//using Android.Icu.Text;
+
 //using static Android.Content.ClipData;
 
 public partial class CreateCategoryPage : ContentPage
@@ -20,23 +22,10 @@ public partial class CreateCategoryPage : ContentPage
     async void btnEdit_clicked(System.Object sender, System.EventArgs e)
     {
         btnAdd.Text = "Edit";
-        int id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
-        var get = _repo.GetCategoryById(id);
-        DataLayer.Entities.Category category = new();
-        EditCategory edit = new EditCategory(category, _repo);
-        
-        var res = edit.Edit(get);
+        _id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        var get = _repo.GetCategoryById(_id);
         txtTitle.Text = get.Title;
-        switch (res)
-        {
-
-            case -2:
-                await DisplayAlert("Error", "You want to Create Category? Go To Add Section", "Done");
-                return;
-        }
-        await DisplayAlert("Information", "Your data Edited", "Done");
-        btnAdd.Text = "Add";
-
+        get.Id = _id;
     }
     async void btnDelete_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -74,9 +63,26 @@ public partial class CreateCategoryPage : ContentPage
         }
         else
         {
-            _repo.Edit(newCategory);
-            await DisplayAlert("Information", "Your Data Edited", "Done");
-            btnAdd.Text = "Add";
+            DataLayer.Entities.Category category = new();
+
+            EditCategory edit = new EditCategory(category, _repo);
+            category.Title = txtTitle.Text;
+            category.Id = _id;
+            var res = edit.Edit(category);
+
+
+            switch (res)
+            {
+                case -2:
+                    await DisplayAlert("Error", "You want to Create Category? Go To Add Section", "Done");
+                    return;
+            }
+            await DisplayAlert("Information", "Your data Edited", "Done");
+
+
+            //_repo.Edit(newCategory);
+            //await DisplayAlert("Information", "Your Data Edited", "Done");
+            //btnAdd.Text = "Add";
         }
         _id = 0;
 

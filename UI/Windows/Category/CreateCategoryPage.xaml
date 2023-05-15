@@ -18,7 +18,7 @@
                         <SwipeView.LeftItems>
                             <SwipeItems>
                                 
-                                <SwipeItem Text="Edit" BackgroundColor="White" Clicked="btnEdit_clicked" CommandParameter="{Binding Id}"/>
+                                <SwipeItem Text="Show Data" BackgroundColor="White" Clicked="btnEdit_clicked" CommandParameter="{Binding Id}"/>
                                 <SwipeItem Text="Delete" BackgroundColor="White" Clicked="btnDelete_Clicked"/>
                             </SwipeItems>
                         </SwipeView.LeftItems>
