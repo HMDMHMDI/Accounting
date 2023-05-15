@@ -19,7 +19,7 @@
                             <SwipeItems>
                                 
                                 <SwipeItem Text="Edit" BackgroundColor="White" Clicked="btnEdit_clicked" CommandParameter="{Binding Id}"/>
-                                <SwipeItem Text="Create" BackgroundColor="White" Clicked="btnDelete_Clicked"/>
+                                <SwipeItem Text="Delete" BackgroundColor="White" Clicked="btnDelete_Clicked"/>
                             </SwipeItems>
                         </SwipeView.LeftItems>
                     <Grid>

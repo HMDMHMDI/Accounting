@@ -19,5 +19,6 @@ public static class MauiProgram
 
 //TODO: Collection views and list of unwritten models
 //TODO: Transaction Model
+//TODO: busuiness logic
 //TODO: Status bar
 //TODO: Design MainPage and related pages including wireframe *

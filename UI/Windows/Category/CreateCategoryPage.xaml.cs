@@ -19,8 +19,24 @@ public partial class CreateCategoryPage : ContentPage
 
     async void btnEdit_clicked(System.Object sender, System.EventArgs e)
     {
-        int id = Convert.ToInt32( ((SwipeItem)sender).CommandParameter);
-        await EditData(id);
+        btnAdd.Text = "Edit";
+        int id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        var get = _repo.GetCategoryById(id);
+        DataLayer.Entities.Category category = new();
+        EditCategory edit = new EditCategory(category, _repo);
+        
+        var res = edit.Edit(get);
+        txtTitle.Text = get.Title;
+        switch (res)
+        {
+
+            case -2:
+                await DisplayAlert("Error", "You want to Create Category? Go To Add Section", "Done");
+                return;
+        }
+        await DisplayAlert("Information", "Your data Edited", "Done");
+        btnAdd.Text = "Add";
+
     }
     async void btnDelete_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -48,10 +64,10 @@ public partial class CreateCategoryPage : ContentPage
             switch (res)
             {
                 case -1:
-                    await DisplayAlert("Error", "Please enter title.","Done.");
+                    await DisplayAlert("Error", "Please enter title.", "Done.");
                     return;
                 case -2:
-                    await DisplayAlert("Error", "Id is not valid","Done.");
+                    await DisplayAlert("Error", "Id is not valid", "Done.");
                     return;
             }
             await DisplayAlert("Information", "Your Data Added", "Done");
@@ -82,6 +98,7 @@ public partial class CreateCategoryPage : ContentPage
 
         txtTitle.Text = category.Title;
         _id = category.Id;
+
     }
 
     private async Task ShowData()
@@ -99,7 +116,7 @@ public partial class CreateCategoryPage : ContentPage
                     _id = category.Id;
                     return;
                 }
-               // var category = _repo.GetCategoryById(item.Id);
+                // var category = _repo.GetCategoryById(item.Id);
 
                 return;
             }
