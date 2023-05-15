@@ -25,9 +25,13 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <None Remove="Category\" />
+	  <None Remove="People\" />
+	  <None Remove="Product\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Category\" />
+	  <Folder Include="People\" />
+	  <Folder Include="Product\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\DataLayer\DataLayer.csproj" />

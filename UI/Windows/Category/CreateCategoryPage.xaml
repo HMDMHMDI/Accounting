@@ -10,7 +10,7 @@
         </HorizontalStackLayout>
 
         <Button BorderColor="AliceBlue" Text="Add" x:Name="btnAdd" Clicked="btnAdd_Clicked"/>
-        <Button Text="ShowData" x:Name="btnShowData" Clicked="btnShowData_Clicked"/>
+        
         <CollectionView  x:Name="clcCategory" ItemsSource="{Binding .}">
             <CollectionView.ItemTemplate>
                 <DataTemplate>

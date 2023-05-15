@@ -54,14 +54,6 @@ public partial class CreateCategoryPage : ContentPage
 
         //_repo.Delete(category);
     }
-
-    async void btnShowData_Clicked(System.Object sender, System.EventArgs e)
-    {
-        int id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
-
-        await ShowData();
-    }
-
     async void btnAdd_Clicked(System.Object sender, System.EventArgs e)
     {
         DataLayer.Entities.Category newCategory = new();
@@ -112,25 +104,5 @@ public partial class CreateCategoryPage : ContentPage
         txtTitle.Text = string.Empty;
     }
 
-    private async Task ShowData()
-    {
-        foreach (var item in _repo.GetCategories())
-        {
-            var ShouldEdit = await DisplayAlert(item.Id.ToString(), item.Title, "Actions", "Next");
-            if (ShouldEdit)
-            {
-                var action = await DisplayAlert("Action", "Choose ur action.", "Edit", "Delete");
-                var category = _repo.GetCategoryById(item.Id);
-                if (action)
-                {
-                    txtTitle.Text = category.Title;
-                    _id = category.Id;
-                    return;
-                }
-                // var category = _repo.GetCategoryById(item.Id);
-
-                return;
-            }
-        }
-    }
+    
 }
