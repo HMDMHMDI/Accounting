@@ -29,9 +29,30 @@ public partial class CreateCategoryPage : ContentPage
     }
     async void btnDelete_Clicked(System.Object sender, System.EventArgs e)
     {
-        int id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        //DataLayer.Entities.Category category = new();
+        int _id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        var get = _repo.GetCategoryById(_id);
+        DeleteCategory delete = new DeleteCategory(get , _repo);
+        
+        var deleted = await DisplayAlert("Information", "You Want to Delete This Category?", "Yes", "No");
+        if (deleted)
+        {
+            var res = delete.Delete(get);
+            switch (res)    
+            {
+                case -1:
+                    await DisplayAlert("Information", "Your Data Doesnt exist", "Done");
+                    return;
+            }
+            await DisplayAlert("Information", "Your Data deleted", "Done");
+        }
 
-        await DeleteData(id);
+
+
+
+        //var category = _repo.GetCategoryById(id);
+
+        //_repo.Delete(category);
     }
 
     async void btnShowData_Clicked(System.Object sender, System.EventArgs e)
@@ -89,22 +110,6 @@ public partial class CreateCategoryPage : ContentPage
         clcCategory.ItemsSource = _repo.GetCategories();
 
         txtTitle.Text = string.Empty;
-    }
-
-    private async Task DeleteData(int id)
-    {
-        var category = _repo.GetCategoryById(id);
-
-        _repo.Delete(category);
-    }
-
-    private async Task EditData(int id)
-    {
-        var category = _repo.GetCategoryById(id);
-
-        txtTitle.Text = category.Title;
-        _id = category.Id;
-
     }
 
     private async Task ShowData()
