@@ -29,37 +29,49 @@
             </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>
+
+
                     <ViewCell>
-                        <HorizontalStackLayout Spacing="100" >
+                        <SwipeView>
+                            <SwipeView.LeftItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Show Data" Clicked="btnEdit_Clicked" CommandParameter="{Binding Id}"/>
+                                    <SwipeItem BackgroundColor="Red" Text="Delete" Clicked="btnDelete_Clicked" CommandParameter="{Binding Id}"/>
+
+                            </SwipeItems>
+
+                            </SwipeView.LeftItems>
+                            <HorizontalStackLayout Spacing="100" >
 
 
 
-                            <Label Text="ID"></Label>
-                            <Label Grid.Column="1"
+                                <Label Text="ID"></Label>
+                                <Label Grid.Column="1"
                            Text="{Binding Id}"
                            FontAttributes="Bold" />
-                            <Label Text="Name" />
-                            <Label Grid.Column="1"
+                                <Label Text="Name" />
+                                <Label Grid.Column="1"
                            Text="{Binding Name}"
                            FontAttributes="Bold" />
-                            <Label Text="Price"/>
-                            <Label Grid.Column="1"
+                                <Label Text="Price"/>
+                                <Label Grid.Column="1"
                            Text="{Binding Price}"
                            FontAttributes="Bold" />
-                            <Label Text="Count"/>
-                            <Label Grid.Column="1"
+                                <Label Text="Count"/>
+                                <Label Grid.Column="1"
                            Text="{Binding Count}"
                            FontAttributes="Bold" />
-                            <Label Text="{Binding CategoryId}"/>
-                            <HorizontalStackLayout>
+                                <Label Text="{Binding CategoryId}"/>
+                                <HorizontalStackLayout>
+                                    
+                                </HorizontalStackLayout>
 
-                                <Button Text="Actions" Clicked="btnShowData_Clicked" BackgroundColor="Red"/>
-                                <!--<controls:CustomBtn SendId="{Binding Id}" MyFun="Test" BackgroundColor="Blue"/>-->
+
                             </HorizontalStackLayout>
+                        </SwipeView>
 
-
-                        </HorizontalStackLayout>
                     </ViewCell>
+
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

@@ -58,6 +58,7 @@ public partial class CreatePersonPage : ContentPage
                     return;
             }
             await DisplayAlert("Information", "Your Data Edited", "Done");
+            btnAdd.Text = "Add";
 
         }
         _id = 0;
@@ -95,7 +96,7 @@ public partial class CreatePersonPage : ContentPage
                     return;
             }
             await DisplayAlert("Information", "Your Data Deleted", "Done");
-            return;
+            
         }
     }
 }

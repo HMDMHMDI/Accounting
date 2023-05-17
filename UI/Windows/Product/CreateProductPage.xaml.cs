@@ -2,6 +2,9 @@
 using DataLayer.Entities;
 using DataLayer.Interfaces;
 using DataLayer.Services;
+using Business.Product;
+using static System.Net.Mime.MediaTypeNames;
+
 public partial class CreateProductPage : ContentPage
 {
     private readonly IProductRepository _repo;
@@ -14,13 +17,10 @@ public partial class CreateProductPage : ContentPage
         _cateRepo = new CategoryRepository();
         lstProducts.ItemsSource = _repo.GetAll();
         pickCategory.ItemsSource = _cateRepo.GetCategories();
-        
+
     }
 
-    void Test(int id)
-    {
-        DisplayAlert(id.ToString(), id.ToString(), id.ToString());
-    }
+
 
     async void btnAdd_Clicked(System.Object sender, System.EventArgs e)
     {
@@ -30,60 +30,81 @@ public partial class CreateProductPage : ContentPage
         newProduct.Count = txtPCount.Text;
         newProduct.CategoryId = (pickCategory.SelectedItem as Category).Id;
         newProduct.Id = _id;
-        if (_id == 0 )
+        if (_id == 0)
         {
-            _repo.Create(newProduct);
-            await DisplayAlert("Information", "Your product is Added", "done");
+            CreateNewProduct create = new CreateNewProduct(newProduct, _repo);
+            var res = create.Create(newProduct);
+            switch (res)
+            {
+                case -1:
+                    await DisplayAlert("Information", "Please Enter Validation", "Done");
+                    return;
+                case -2:
+                    await DisplayAlert("Information", "Go To Edit Section", "Done");
+                    return;
+            }
+            await DisplayAlert("Information", "Your data Added", "Done");
+            btnAdd.Text = "Add";
         }
         else
         {
-            _repo.Edit(newProduct);
-            await DisplayAlert("Information", "Your product is Edited", "done");
-            btnAdd.Text = "Add";
-
+            DataLayer.Entities.Product product = new();
+            EditProduct edit = new EditProduct(product, _repo);
+            product.Name = txtPName.Text;
+            product.Price = txtPPrice.Text;
+            product.Count = txtPCount.Text;
+            product.Id = _id;
+            product.CategoryId = (pickCategory.SelectedItem as Category).Id;
+            var res = edit.Edit(product);
+            switch (res)
+            {
+                case -1:
+                    await DisplayAlert("Information", "Go to Create section", "Done");
+                    return;
+            }
+            await DisplayAlert("Information", "Your Data Edited", "Done");
         }
         _id = 0;
+        txtPCount.Text = string.Empty;
+        txtPName.Text = string.Empty;
+        txtPPrice.Text = string.Empty;
         lstProducts.ItemsSource = _repo.GetAll();
-
-
-        
-
     }
 
-    async void btnShowData_Clicked(System.Object sender, System.EventArgs e)
+     void btnEdit_Clicked(System.Object sender, System.EventArgs e)
     {
-        await ShowData();
+        btnAdd.Text = "Edit";
+        int _id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        var get = _repo.GetById(_id);
+        txtPCount.Text = get.Count;
+        txtPName.Text = get.Name;
+        txtPPrice.Text = get.Price;
+        (pickCategory.SelectedItem as Category).Id = get.CategoryId;
+        _id = get.Id;
     }
 
-
-
-
-    private async Task ShowData()
+    async void btnDelete_Clicked(System.Object sender, System.EventArgs e)
     {
-
-        foreach (var item in _repo.GetAll())
+        int _id = Convert.ToInt32(((SwipeItem)sender).CommandParameter);
+        var get = _repo.GetById(_id);
+        DeleteProduct delete = new DeleteProduct(get, _repo);
+        var confirm = await DisplayAlert("Information", "You Sure Want To Delete?", "yes", "no");
+        if (confirm)
         {
-            var ShouldEdit = await DisplayAlert(item.Id.ToString(), item.Name + " \n " + item.Price + " \n " + item.Count, "Actions", "Next");
-            if (ShouldEdit)
+            var res = delete.Delete(get);
+            switch (res)
             {
-                var Action = await DisplayAlert("Information", "Choose Your Action", "Edit", "Delete");
-                var product = _repo.GetById(item.Id);
-                if (Action)
-                {
-                    txtPName.Text = product.Name;
-                    txtPPrice.Text = product.Price;
-                    txtPCount.Text = product.Count;
-                    var category = _cateRepo.GetCategoryById(product.CategoryId);
-                    pickCategory.SelectedItem = category;
-                    pickCategory.SelectedIndex = (pickCategory.ItemsSource as List<Category>).IndexOf(category);
-                    btnAdd.Text = "Edit";
-                    _id = product.Id;
+                case -1:
+                    await DisplayAlert("Information", "Item Is Not Valid", "Done");
                     return;
-                }
-                _repo.Delete(product);
-                return;
             }
+            await DisplayAlert("Information", "Your Data Deleted", "Done");
 
         }
     }
+
+
+
+
+
 }

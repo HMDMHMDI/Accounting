@@ -16,7 +16,7 @@ namespace Business.Product
 			{
 				return -1;
 			}
-			if (_product.Id < 0)
+			if (_product.Id > 0)
 			{
 				return -2;
 			}
