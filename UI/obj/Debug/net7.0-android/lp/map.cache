@@ -1,3 +1,4 @@
+Business.dll
 DataLayer.dll
 GoogleGson.dll
 Microsoft.Maui.Controls.Compatibility.dll
@@ -151,6 +152,7 @@ androidx.exifinterface.exifinterface.aar
 androidx.browser.browser.aar
 gifdecoder.aar
 glide.aar
+Business.aar
 DataLayer.aar
 GoogleGson.aar
 Microsoft.Maui.Controls.aar
@@ -160,5 +162,3 @@ Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 SQLitePCLRaw.lib.e_sqlite3.android.aar
 Xamarin.Google.Crypto.Tink.Android.aar
-Business.dll
-Business.aar

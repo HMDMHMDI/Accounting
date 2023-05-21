@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "OyyzLlNM9dkDtcdJRLvQhfBlwTY+eXLh29O+d2USk9pkxutP9RZAjzGVcGvv90WnFircBKhN8ozROt1x3It00w==",
+  "dgSpecHash": "ef/6jJg481mIXv8UOPa9GL2z2t1bfEhZgnbIpYohBn6BAX2eHvNe8NGE46PGH/7Ml+8g6qJu/6wwEknXFH6Dbg==",
   "success": true,
   "projectFilePath": "/Users/hamed/Desktop/Accounting/UI/UI.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,7 @@
     "/Users/hamed/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/Users/hamed/.nuget/packages/microsoft.maui.graphics/7.0.81/microsoft.maui.graphics.7.0.81.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/microsoft.maui.graphics/7.0.86/microsoft.maui.graphics.7.0.86.nupkg.sha512",
     "/Users/hamed/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/hamed/.nuget/packages/salaros.configparser/0.3.2/salaros.configparser.0.3.2.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",

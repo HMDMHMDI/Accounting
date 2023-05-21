@@ -92,7 +92,6 @@ public partial class CreateCategoryPage : ContentPage
             }
             await DisplayAlert("Information", "Your data Edited", "Done");
 
-
             //_repo.Edit(newCategory);
             //await DisplayAlert("Information", "Your Data Edited", "Done");
             //btnAdd.Text = "Add";

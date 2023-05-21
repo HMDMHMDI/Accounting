@@ -24,7 +24,7 @@
                     <Grid>
                         <Frame 
                         BorderColor="Red"
-                        CornerRadius="50" Padding="15"/>
+                        Padding="15"/>
                         <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
                             <Label Text="Id : "></Label>
                             <Label Text="{Binding Id}" Grid.Column="1" FontAttributes="Bold"></Label>

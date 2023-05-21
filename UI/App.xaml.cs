@@ -7,8 +7,7 @@ public partial class App : Application
 		InitializeComponent();
 
 		var navpage = new NavigationPage(new MainPage());
-		navpage.BarBackground = Colors.Chocolate;
-		navpage.BarTextColor = Colors.White;
+		navpage.BarBackgroundColor = Colors.Red;
 		MainPage = navpage;
 	}
 
