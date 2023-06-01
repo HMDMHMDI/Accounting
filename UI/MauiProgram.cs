@@ -9,6 +9,14 @@ public static class MauiProgram
         {
             fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
             fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+            fonts.AddFont("fontello.ttf", "Icons");
+            fonts.AddFont("SpaceMono-Regular.ttf", "SpaceR");
+            fonts.AddFont("SpaceMono-Bold.ttf", "SpaceB");
+            fonts.AddFont("SpaceGrotesk-Light.ttf", "SpaceGT");
+            fonts.AddFont("SpaceGrotesk-Regular.ttf", "SpaceGR");
+            fonts.AddFont("SpaceGrotesk-Bold.ttf", "SpaceGB");
+            fonts.AddFont("fontelloo.ttf", "Iconss");
+
         });
 #if DEBUG
         builder.Logging.AddDebug();
