@@ -213,11 +213,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.4": {
+      "SQLitePCLRaw.bundle_green/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.4"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.5"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -226,7 +226,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.4": {
+      "SQLitePCLRaw.core/2.1.5": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -238,7 +238,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.4": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.5": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -344,10 +344,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.4": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.4"
+          "SQLitePCLRaw.core": "2.1.5"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -382,7 +382,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.1.4",
+          "SQLitePCLRaw.bundle_green": "2.1.5",
           "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -619,11 +619,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.4": {
+      "SQLitePCLRaw.bundle_green/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.4"
+          "SQLitePCLRaw.lib.e_sqlite3.android": "2.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.5"
         },
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.batteries_v2.dll": {
@@ -636,7 +636,7 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.1.4": {
+      "SQLitePCLRaw.core/2.1.5": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -648,7 +648,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.4": {
+      "SQLitePCLRaw.lib.e_sqlite3.android/2.1.5": {
         "type": "package",
         "compile": {
           "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll": {
@@ -661,10 +661,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.4": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.4"
+          "SQLitePCLRaw.core": "2.1.5"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -2453,7 +2453,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.1.4",
+          "SQLitePCLRaw.bundle_green": "2.1.5",
           "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -2677,10 +2677,10 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.4": {
+      "SQLitePCLRaw.bundle_green/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.provider.sqlite3": "2.1.4",
+          "SQLitePCLRaw.provider.sqlite3": "2.1.5",
           "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
         },
         "compile": {
@@ -2690,7 +2690,7 @@
           "lib/net6.0-ios14.2/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.4": {
+      "SQLitePCLRaw.core/2.1.5": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -2702,10 +2702,10 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.provider.sqlite3/2.1.4": {
+      "SQLitePCLRaw.provider.sqlite3/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.4"
+          "SQLitePCLRaw.core": "2.1.5"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
@@ -2748,7 +2748,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.1.4",
+          "SQLitePCLRaw.bundle_green": "2.1.5",
           "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -2972,11 +2972,11 @@
           }
         }
       },
-      "SQLitePCLRaw.bundle_green/2.1.4": {
+      "SQLitePCLRaw.bundle_green/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.lib.e_sqlite3": "2.1.4",
-          "SQLitePCLRaw.provider.e_sqlite3": "2.1.4"
+          "SQLitePCLRaw.lib.e_sqlite3": "2.1.5",
+          "SQLitePCLRaw.provider.e_sqlite3": "2.1.5"
         },
         "compile": {
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
@@ -2985,7 +2985,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll": {}
         }
       },
-      "SQLitePCLRaw.core/2.1.4": {
+      "SQLitePCLRaw.core/2.1.5": {
         "type": "package",
         "dependencies": {
           "System.Memory": "4.5.3"
@@ -2997,7 +2997,7 @@
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {}
         }
       },
-      "SQLitePCLRaw.lib.e_sqlite3/2.1.4": {
+      "SQLitePCLRaw.lib.e_sqlite3/2.1.5": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -3103,10 +3103,10 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.e_sqlite3/2.1.4": {
+      "SQLitePCLRaw.provider.e_sqlite3/2.1.5": {
         "type": "package",
         "dependencies": {
-          "SQLitePCLRaw.core": "2.1.4"
+          "SQLitePCLRaw.core": "2.1.5"
         },
         "compile": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
@@ -3141,7 +3141,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "SQLitePCLRaw.bundle_green": "2.1.4",
+          "SQLitePCLRaw.bundle_green": "2.1.5",
           "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
@@ -3610,10 +3610,10 @@
         "sqlite-net-pcl.nuspec"
       ]
     },
-    "SQLitePCLRaw.bundle_green/2.1.4": {
-      "sha512": "TddzKjYBURIRLNySFUonIOxTL0tKM3agxd/FqAKUKVDJbhFHQZefWo8iFp+VjauPv6mYklxGNpc0WO3UoWfdfA==",
+    "SQLitePCLRaw.bundle_green/2.1.5": {
+      "sha512": "TEWM06zE7it0rKSi9au7o9lE2IsLj+MNF5x5DGpTHPw4Io+0hI6Azfi6tCWR2ijS+nqN6L93Q1p+5Rc+dDxXPQ==",
       "type": "package",
-      "path": "sqlitepclraw.bundle_green/2.1.4",
+      "path": "sqlitepclraw.bundle_green/2.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3626,26 +3626,26 @@
         "lib/net6.0-tvos10.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll",
         "lib/xamarinios10/SQLitePCLRaw.batteries_v2.dll",
-        "sqlitepclraw.bundle_green.2.1.4.nupkg.sha512",
+        "sqlitepclraw.bundle_green.2.1.5.nupkg.sha512",
         "sqlitepclraw.bundle_green.nuspec"
       ]
     },
-    "SQLitePCLRaw.core/2.1.4": {
-      "sha512": "inBjvSHo9UDKneGNzfUfDjK08JzlcIhn1+SP5Y3m6cgXpCxXKCJDy6Mka7LpgSV+UZmKSnC8rTwB0SQ0xKu5pA==",
+    "SQLitePCLRaw.core/2.1.5": {
+      "sha512": "gZQMpefwszRkDjnNGxVmykOIaVAzBsR082ODO2myRFcyeSGiv4B1E4Ol+lijqD/SXK/ofyO2/U7dOwVfnzaVdg==",
       "type": "package",
-      "path": "sqlitepclraw.core/2.1.4",
+      "path": "sqlitepclraw.core/2.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/SQLitePCLRaw.core.dll",
-        "sqlitepclraw.core.2.1.4.nupkg.sha512",
+        "sqlitepclraw.core.2.1.5.nupkg.sha512",
         "sqlitepclraw.core.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3/2.1.4": {
-      "sha512": "2C9Q9eX7CPLveJA0rIhf9RXAvu+7nWZu1A2MdG6SD/NOu26TakGgL1nsbc0JAspGijFOo3HoN79xrx8a368fBg==",
+    "SQLitePCLRaw.lib.e_sqlite3/2.1.5": {
+      "sha512": "Fqp/FQlb+USnEC2qfWOdsY4fFir3sob9BQMgdT3rcamUAoB7id8V0WknWdsFnE4TXBKDiM79+oPoZoHAuU/dsg==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3/2.1.4",
+      "path": "sqlitepclraw.lib.e_sqlite3/2.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3682,14 +3682,14 @@
         "runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll",
         "runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll",
         "runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll",
-        "sqlitepclraw.lib.e_sqlite3.2.1.4.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.2.1.5.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.lib.e_sqlite3.android/2.1.4": {
-      "sha512": "2++PvnwyE5LHKmWIuuP2p8Bb4UVj9faqiJXyAnjApgstTRBAVsMXDtPXDX1QfhTkThxRiRsbVM04/DW4NopyZQ==",
+    "SQLitePCLRaw.lib.e_sqlite3.android/2.1.5": {
+      "sha512": "REGS8grAHx3dapNeBhvBpiZljXE43AcJHZszG5qQUSql0HlpupIMHo5apHLSD53u+wmqX6EE0mODx3PaDG0nbQ==",
       "type": "package",
-      "path": "sqlitepclraw.lib.e_sqlite3.android/2.1.4",
+      "path": "sqlitepclraw.lib.e_sqlite3.android/2.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3697,35 +3697,35 @@
         "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.aar",
         "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.dll",
         "lib/net6.0-android31.0/SQLitePCLRaw.lib.e_sqlite3.android.xml",
-        "sqlitepclraw.lib.e_sqlite3.android.2.1.4.nupkg.sha512",
+        "sqlitepclraw.lib.e_sqlite3.android.2.1.5.nupkg.sha512",
         "sqlitepclraw.lib.e_sqlite3.android.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.e_sqlite3/2.1.4": {
-      "sha512": "CSlb5dUp1FMIkez9Iv5EXzpeq7rHryVNqwJMWnpq87j9zWZexaEMdisDktMsnnrzKM6ahNrsTkjqNodTBPBxtQ==",
+    "SQLitePCLRaw.provider.e_sqlite3/2.1.5": {
+      "sha512": "/HG+f7/NZn+51NItD3LKJCMWL5AI9aEkqIYplr4eHeWmMf+TEn8cYxkhQ1jUA9bSUscCHlZbNt+nyegZxQ1SLw==",
       "type": "package",
-      "path": "sqlitepclraw.provider.e_sqlite3/2.1.4",
+      "path": "sqlitepclraw.provider.e_sqlite3/2.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0-windows7.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.e_sqlite3.dll",
-        "sqlitepclraw.provider.e_sqlite3.2.1.4.nupkg.sha512",
+        "sqlitepclraw.provider.e_sqlite3.2.1.5.nupkg.sha512",
         "sqlitepclraw.provider.e_sqlite3.nuspec"
       ]
     },
-    "SQLitePCLRaw.provider.sqlite3/2.1.4": {
-      "sha512": "NWhwVNpfA6mkdWrOXgz1mdiJdWIoL+J1vZA65JfNC2NAJaW5J4hiG5wWUN/ZUgeekwxo+w23V2DgNFBxyhU21A==",
+    "SQLitePCLRaw.provider.sqlite3/2.1.5": {
+      "sha512": "XgKbKHzOERukJGgz1aU9J/7A/wh7XTH8lQtzx1DzGUA9P3X7ccwchTi2sDifS3nCJk+8qLAKodPzhnRnZF2SPA==",
       "type": "package",
-      "path": "sqlitepclraw.provider.sqlite3/2.1.4",
+      "path": "sqlitepclraw.provider.sqlite3/2.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net6.0-windows7.0/SQLitePCLRaw.provider.sqlite3.dll",
         "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll",
         "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll",
-        "sqlitepclraw.provider.sqlite3.2.1.4.nupkg.sha512",
+        "sqlitepclraw.provider.sqlite3.2.1.5.nupkg.sha512",
         "sqlitepclraw.provider.sqlite3.nuspec"
       ]
     },

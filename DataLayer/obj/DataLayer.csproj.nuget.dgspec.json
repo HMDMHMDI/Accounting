@@ -87,7 +87,7 @@
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[2.1.4, )"
+              "version": "[2.1.5, )"
             },
             "WakaTime": {
               "target": "Package",
@@ -160,7 +160,7 @@
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[2.1.4, )"
+              "version": "[2.1.5, )"
             },
             "WakaTime": {
               "target": "Package",
@@ -302,7 +302,7 @@
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[2.1.4, )"
+              "version": "[2.1.5, )"
             },
             "WakaTime": {
               "target": "Package",
@@ -378,7 +378,7 @@
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
-              "version": "[2.1.4, )"
+              "version": "[2.1.5, )"
             },
             "WakaTime": {
               "target": "Package",

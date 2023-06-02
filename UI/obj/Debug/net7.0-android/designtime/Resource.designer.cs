@@ -21676,19 +21676,22 @@ namespace UI
 			public const int notify_panel_notification_icon_bg = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int peson = 2131165392;
+			public const int person = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int splash = 2131165393;
+			public const int peson = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int test_level_drawable = 2131165394;
+			public const int splash = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int tooltip_frame_dark = 2131165395;
+			public const int test_level_drawable = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int tooltip_frame_light = 2131165396;
+			public const int tooltip_frame_dark = 2131165396;
+			
+			// aapt resource value: 0x7F0700D5
+			public const int tooltip_frame_light = 2131165397;
 			
 			static Drawable()
 			{

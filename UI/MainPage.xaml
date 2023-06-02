@@ -193,11 +193,85 @@
             </Grid>
 
         </Grid>
-        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" RowDefinitions="*,*">
-            <Grid Grid.Column="0" Grid.Row="0" BackgroundColor="Red">
-                
+        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" RowDefinitions="*,*" ColumnSpacing="10" >
+            <Frame Grid.Column="1" CornerRadius="40" BackgroundColor="#FBFF2C">
+                <Grid RowDefinitions=".2* , .8*" >
+                    <Grid Grid.Row="0" ColumnDefinitions=".7* , .3*">
+                        <Label Text="Payment Shedule" Margin="0,16,0,0" FontFamily="SpaceGB"
+                               FontSize="24"
+                               Grid.Column="0"/>
+                        <Border Grid.Column="1" HeightRequest="60" WidthRequest="70"
+                                StrokeShape="RoundRectangle 80,80,80,80"
+                                VerticalOptions="Center"
+                                HorizontalOptions="End"
+                                BackgroundColor="Black">
+                            <VerticalStackLayout VerticalOptions="Center">
+                                <ImageButton Aspect="AspectFit">
+                                    <ImageButton.Source>
+                                        <FontImageSource
+                                             FontFamily="Icons"
+                                             Glyph="&#xE80F;"
+                                             Size="25">
+                                        </FontImageSource>
+                                    </ImageButton.Source>
+                                </ImageButton>
+                            </VerticalStackLayout>
+                        </Border>
 
-            </Grid>
+                    </Grid>
+                    <Grid Grid.Row="1" ColumnDefinitions=".35*, .65*">
+                        <Grid Grid.Column="0" RowDefinitions="*,*,*" Margin="0,10,0,0">
+                            <Grid Grid.Row="0">
+                                <VerticalStackLayout>
+                                    <Label Text="Overall balance"
+                                       FontFamily="SpaceR"
+                                       FontSize="14"/>
+                                    <Label Text="990,815$"
+                                       FontFamily="SpaceGB"
+                                       FontSize="38"/>
+                                </VerticalStackLayout>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <VerticalStackLayout>
+                                    <Label Text="Overall balance"
+                                       FontFamily="SpaceR"
+                                       FontSize="14"/>
+                                    <Label Text="170,520$"
+                                       FontFamily="SpaceGB"
+                                       FontSize="38"/>
+                                </VerticalStackLayout>
+                            </Grid>
+                            <Grid Grid.Row="2">
+                                <VerticalStackLayout>
+                                    <Label Text="Overall balance"
+                                       FontFamily="SpaceR"
+                                       FontSize="14"/>
+                                    <Label Text="64,520$"
+                                       FontFamily="SpaceGB"
+                                       FontSize="38"/>
+                                </VerticalStackLayout>
+                            </Grid>
+
+
+                        </Grid>
+                        <Grid Grid.Column="1" ColumnDefinitions="*,*,*">
+                            
+
+                        </Grid>
+                    </Grid>
+
+                </Grid>
+
+            </Frame>
+            <Frame BackgroundColor="Black" Grid.Column="0" Grid.Row="0" CornerRadius="40">
+                <Grid RowDefinitions=".2* , .8*" >
+
+
+                </Grid>
+
+            </Frame>
+
+
 
         </Grid>
     </Grid>
