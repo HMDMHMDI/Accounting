@@ -920,6 +920,10 @@
               "version": "[7.0.86, )",
               "autoReferenced": true
             },
+            "SkiaSharp.Views.Maui.Core": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
             "WakaTime": {
               "target": "Package",
               "version": "[8.1.11, )"
@@ -1042,6 +1046,10 @@
               "version": "[7.0.86, )",
               "autoReferenced": true
             },
+            "SkiaSharp.Views.Maui.Core": {
+              "target": "Package",
+              "version": "[2.88.3, )"
+            },
             "WakaTime": {
               "target": "Package",
               "version": "[8.1.11, )"
@@ -1108,6 +1116,10 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
+            },
+            "SkiaSharp.Views.Maui.Core": {
+              "target": "Package",
+              "version": "[2.88.3, )"
             },
             "WakaTime": {
               "target": "Package",

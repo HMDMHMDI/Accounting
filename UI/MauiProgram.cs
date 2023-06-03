@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using SkiaSharp.Views.Maui;
 namespace UI;
 public static class MauiProgram
 {

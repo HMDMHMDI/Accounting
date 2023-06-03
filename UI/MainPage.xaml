@@ -2,8 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="UI.MainPage"
-             BackgroundColor="Black"
-             >
+             BackgroundColor="Black">
     <!--<StackLayout>
         <Button Text="Go to Category Section" Clicked="Button_Clicked_2" Margin="0,10,0,0"></Button>
         <Button Text="Add People" Clicked="Button_Clicked"/>
@@ -19,24 +18,31 @@
                 StrokeShape="RoundRectangle 80,80,80,80">
             <HorizontalStackLayout Spacing="60" HorizontalOptions="Center">
                 <Button Text="Dashboard"
+                        TextColor="Black"
                         CornerRadius="40"
                         BackgroundColor="{StaticResource Gray600}"/>
                 <Button Text="Taxes"
+                        TextColor="Black"
                         CornerRadius="40"
                         BackgroundColor="{StaticResource Gray600}"/>
                 <Button Text="Invoicing"
+                        TextColor="Black"
                         CornerRadius="40"
                         BackgroundColor="{StaticResource Gray600}"/>
                 <Button Text="Reports"
+                        TextColor="Black"
                         CornerRadius="40"
                         BackgroundColor="{StaticResource Gray600}"/>
                 <Button Text="Workers"
+                        TextColor="Black"
                         CornerRadius="40"
                         BackgroundColor="{StaticResource Gray600}"/>
                 <Button Text="Cash Flow"
+                        TextColor="Black"
                         CornerRadius="40"
                         BackgroundColor="{StaticResource Gray600}"/>
                 <Button Text="Projects"
+                        TextColor="Black"
                         CornerRadius="40"
                         BackgroundColor="{StaticResource Gray600}"/>
             </HorizontalStackLayout>
@@ -58,17 +64,17 @@
                        Aspect="AspectFill"/>
                 </Border>
                 <VerticalStackLayout Grid.Column="2" VerticalOptions="Center">
-                    <Image HeightRequest="50" WidthRequest="40" VerticalOptions="Center">
-                        <Image.Source>
+                    <ImageButton HeightRequest="50" Aspect="Center" WidthRequest="40" VerticalOptions="Center">
+                        <ImageButton.Source>
                             <FontImageSource
                                 FontFamily="Icons"
                                 Glyph="&#xE80F;"
-                                Size="16">
+                                Size="28">
                             </FontImageSource>
 
-                        </Image.Source>
+                        </ImageButton.Source>
 
-                    </Image>
+                    </ImageButton>
                 </VerticalStackLayout>
                 <VerticalStackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="Hamed Mohammadi"
@@ -87,43 +93,51 @@
         </Border>
         <Grid Grid.Row="1">
             <Grid RowDefinitions=".6*,.4*">
-                <Grid ColumnDefinitions=".25*,.25*,.25*,.25*" RowDefinitions=".6*,.4*" Grid.Row="0" Margin="0,10,0,0">
+                <Grid ColumnDefinitions=".25*,.25*,.25*,.25*" RowDefinitions=".6*,.4*" Grid.Row="0" Margin="0,10,0,0" >
                     <Label FontSize="20"
                            Grid.Row="0"
                            TextColor="White"
+                           HorizontalOptions="Center"
                            Grid.Column="0"
                            Text="Busuiness Overview"/>
                     <Label FontSize="20"
+                           HorizontalOptions="Center"
                            Grid.Column="1"
                            Grid.Row="0"
                            TextColor="White"
                            Text="Invested"/>
                     <Label FontSize="20"
+                           HorizontalOptions="Center"
                            Grid.Row="0"
                            TextColor="White"
                            Grid.Column="2"
                            Text="Net Income"/>
                     <Label FontSize="20"
+                           HorizontalOptions="Center"
                            Grid.Row="0"
                            Grid.Column="3"
                            TextColor="White"
                            Text="Payout To Investors"/>
                     <Label FontSize="60"
                            Grid.Row="1"
+                           HorizontalOptions="Center"
                            TextColor="White"
                            Grid.Column="0"
                            Text="RonDesignLab"/>
                     <Label FontSize="60"
+                           HorizontalOptions="Center"
                            Grid.Column="1"
                            Grid.Row="1"
                            TextColor="White"
                            Text="2,010,102"/>
                     <Label FontSize="60"
                            Grid.Row="1"
+                           HorizontalOptions="Center"
                            TextColor="White"
                            Grid.Column="2"
                            Text="1,411,520"/>
                     <Label FontSize="60"
+                           HorizontalOptions="Center"
                            Grid.Row="1"
                            Grid.Column="3"
                            TextColor="White"
@@ -132,72 +146,81 @@
                 </Grid>
                 <HorizontalStackLayout Grid.Row="1" Margin="0,10,0,0">
                     <Button CornerRadius="35"
-                            HeightRequest="70"
+                            HeightRequest="75"
                             WidthRequest="80"
                             Text="All"
-                            BackgroundColor="DarkGray"
-                            TextColor="White"/>
-                    <Button CornerRadius="35"
-                            HeightRequest="70"
-                            WidthRequest="80"
-                            Text="Cash"
-                            BackgroundColor="DarkGray"
-                            TextColor="White"/>
-                    <Button CornerRadius="35"
-                            HeightRequest="70"
-                            WidthRequest="80"
-                            Text="Payment"
-                            BackgroundColor="DarkGray"
-                            TextColor="White"/>
-                    <Button CornerRadius="35"
-                            HeightRequest="70"
-                            WidthRequest="80"
-                            Text="Profit"
-                            BackgroundColor="DarkGray"
-                            TextColor="White"/>
-                    <Button CornerRadius="35"
-                            HeightRequest="70"
-                            WidthRequest="80"
-                            Text="Debt"
-                            BackgroundColor="DarkGray"
-                            TextColor="White"/>
-                    <Button CornerRadius="35"
-                            HeightRequest="70"
-                            WidthRequest="80"
-                            Text="Transfers"
-                            BackgroundColor="DarkGray"
-                            TextColor="White"/>
-                    <Button CornerRadius="35"
-                            HeightRequest="70"
-                            WidthRequest="80"
-                            Text="Invoices"
-                            BackgroundColor="DarkGray"
-                            TextColor="White"/>
-                    <Button CornerRadius="35"
-                            HeightRequest="70"
-                            WidthRequest="80"
-                            Text="+"
-                            BackgroundColor="DarkGray"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
                             TextColor="White"/>
 
-                    <!--<ImageButton HeightRequest="70" WidthRequest="80" CornerRadius="35" HorizontalOptions="End" Grid.Column="1" BackgroundColor="DarkGray">
-                        <ImageButton.Source>
-                            <FontImageSource
-                                FontFamily="Icons"
-                                Glyph="&#xE80F;"
-                                Size="16">
-                            </FontImageSource>
-                        </ImageButton.Source>
-                    </ImageButton>-->
+                    <Button CornerRadius="35"
+                            HeightRequest="75"
+                            WidthRequest="80"
+                            Text="Cash"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
+                            TextColor="White"/>
+                    <Button CornerRadius="35"
+                            HeightRequest="75"
+                            WidthRequest="90"
+                            Text="Payment"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
+                            TextColor="White"/>
+                    <Button CornerRadius="35"
+                            HeightRequest="75"
+                            WidthRequest="90"
+                            Text="Profit"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
+                            TextColor="White"/>
+                    <Button CornerRadius="35"
+                            HeightRequest="75"
+                            WidthRequest="80"
+                            Text="Debt"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
+                            TextColor="White"/>
+                    <Button CornerRadius="35"
+                            HeightRequest="75"
+                            WidthRequest="100"
+                            Text="Transfers"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
+                            TextColor="White"/>
+                    <Button CornerRadius="35"
+                            HeightRequest="75"
+                            WidthRequest="100"
+                            Text="Invoices"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
+                            TextColor="White"/>
+                    <Button CornerRadius="35"
+                            HeightRequest="75"
+                            WidthRequest="80"
+                            Text="+"
+                            FontSize="25"
+                            BackgroundColor="Black"
+                            BorderWidth="2"
+                            BorderColor="White"
+                            TextColor="White"/>
                 </HorizontalStackLayout>
             </Grid>
 
         </Grid>
-        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" RowDefinitions="*,*" ColumnSpacing="10" >
+        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" RowDefinitions="*,*" ColumnSpacing="10" RowSpacing="10" Margin="0,10,0,10" >
             <Frame Grid.Column="1" CornerRadius="40" BackgroundColor="#FBFF2C">
                 <Grid RowDefinitions=".2* , .8*" >
                     <Grid Grid.Row="0" ColumnDefinitions=".7* , .3*">
                         <Label Text="Payment Shedule" Margin="0,16,0,0" FontFamily="SpaceGB"
+                               TextColor="Black"
                                FontSize="24"
                                Grid.Column="0"/>
                         <Border Grid.Column="1" HeightRequest="60" WidthRequest="70"
@@ -206,7 +229,7 @@
                                 HorizontalOptions="End"
                                 BackgroundColor="Black">
                             <VerticalStackLayout VerticalOptions="Center">
-                                <ImageButton Aspect="AspectFit">
+                                <ImageButton Aspect="Center">
                                     <ImageButton.Source>
                                         <FontImageSource
                                              FontFamily="Icons"
@@ -224,10 +247,12 @@
                             <Grid Grid.Row="0">
                                 <VerticalStackLayout>
                                     <Label Text="Overall balance"
+                                           TextColor="Black"
                                        FontFamily="SpaceR"
                                        FontSize="14"/>
                                     <Label Text="990,815$"
                                        FontFamily="SpaceGB"
+                                           TextColor="Black"
                                        FontSize="38"/>
                                 </VerticalStackLayout>
                             </Grid>
@@ -235,8 +260,10 @@
                                 <VerticalStackLayout>
                                     <Label Text="Overall balance"
                                        FontFamily="SpaceR"
+                                           TextColor="Black"
                                        FontSize="14"/>
                                     <Label Text="170,520$"
+                                           TextColor="Black"
                                        FontFamily="SpaceGB"
                                        FontSize="38"/>
                                 </VerticalStackLayout>
@@ -245,8 +272,10 @@
                                 <VerticalStackLayout>
                                     <Label Text="Overall balance"
                                        FontFamily="SpaceR"
+                                           TextColor="Black"
                                        FontSize="14"/>
                                     <Label Text="64,520$"
+                                           TextColor="Black"
                                        FontFamily="SpaceGB"
                                        FontSize="38"/>
                                 </VerticalStackLayout>
@@ -255,7 +284,7 @@
 
                         </Grid>
                         <Grid Grid.Column="1" ColumnDefinitions="*,*,*">
-                            
+
 
                         </Grid>
                     </Grid>
@@ -263,16 +292,406 @@
                 </Grid>
 
             </Frame>
-            <Frame BackgroundColor="Black" Grid.Column="0" Grid.Row="0" CornerRadius="40">
+            <Frame BackgroundColor="#444444" Grid.Column="0" Grid.Row="0" CornerRadius="40">
                 <Grid RowDefinitions=".2* , .8*" >
+                    <Grid Grid.Row="0" ColumnDefinitions=".4*,.6*">
+                        <HorizontalStackLayout Grid.Column="0">
+                            <Label Text="Cash Flow"
+                                   TextColor="#FFFFFF"
+                                   FontFamily="SpaceGB"
+                                   FontSize="29"
+                                   VerticalOptions="Center"/>
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" HorizontalOptions="End" Spacing="5">
+                            <Button BackgroundColor="#444444"
+                                    TextColor="#FFFFFF"
+                                    Text="Monthly"
+                                    BorderWidth="2"
+                                    WidthRequest="120"
+                                    CornerRadius="35"
+                                    BorderColor="#FFFFFF"/>
 
+                            <ImageButton BackgroundColor="#FFFFFF"
+                                         CornerRadius="35"
+                                         WidthRequest="70"
+                                         BorderWidth="4"
+                                         Aspect="Center"
+                                         BorderColor="White">
+                                <ImageButton.Source>
+                                    <FontImageSource
+                                        FontFamily="Icons"
+                                        Glyph="&#xE809;"
+                                        Size="25"
+                                        Color="Black">
+
+                                    </FontImageSource>
+
+                                </ImageButton.Source>
+                            </ImageButton>
+                        </HorizontalStackLayout>
+
+                    </Grid>
 
                 </Grid>
 
             </Frame>
+            <Frame BackgroundColor="#444444"
+                   Grid.Column="2"
+                   Grid.Row="0"
+                   Margin="0,0,10,0"
+                   CornerRadius="40">
+                <Grid RowDefinitions=".2* , .8*">
+                    <HorizontalStackLayout Grid.Row="0" HorizontalOptions="End" VerticalOptions="Center">
+                        <Label Text="138,915$"
+                               FontFamily="SpaceGB"
+                               FontSize="24"
+                               VerticalOptions="Start"
+                               TextColor="#FFFFFF"
+                               Margin="0,0,10,0"/>
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="Start" VerticalOptions="Center">
+                        <Label FontFamily="SpaceGB"
+                               FontSize="28"
+                               VerticalOptions="Start"
+                               TextColor="#FFFFFF"
+                               Text="Daily Profit"/>
+
+                    </HorizontalStackLayout>
+
+                </Grid>
+
+            </Frame>
+            <Frame Grid.Column="2"
+                   Grid.Row="1"
+                   BackgroundColor="#a6e73e"
+                   CornerRadius="40"
+                   Margin="0,0,10,0">
+                <Grid RowDefinitions=".2*,.8*">
+                    <HorizontalStackLayout HorizontalOptions="Start"
+                                           VerticalOptions="Center"
+                                           Grid.Row="0">
+                        <Label Text="Invoices"
+                               FontSize="28"
+                               TextColor="Black"
+                               FontFamily="SpaceGB"/>
+
+                    </HorizontalStackLayout>
+                    <HorizontalStackLayout HorizontalOptions="End"
+                                           Grid.Row="0"
+                                           Spacing="4">
+                        <Button BackgroundColor="#a6e73e"
+                                    TextColor="Black"
+                                    Text="6 Month"
+                                    BorderWidth="2"
+                                    FontSize="16"
+                                    FontFamily="SpaceGL"
+                                    WidthRequest="120"
+                                    CornerRadius="35"
+                                    BorderColor="Black"/>
+
+                        <ImageButton     BackgroundColor="Black"
+                                         CornerRadius="35"
+                                         WidthRequest="70"
+                                         BorderWidth="4"
+                                         Aspect="Center"
+                                         BorderColor="Black">
+                            <ImageButton.Source>
+                                <FontImageSource
+                                        FontFamily="Icons"
+                                        Glyph="&#xE809;"
+                                        Size="40"
+                                        Color="White">
+                                </FontImageSource>
+
+                            </ImageButton.Source>
+
+                        </ImageButton>
+                        
+                    </HorizontalStackLayout>
+                    <Grid RowDefinitions=".5* , .5*" Grid.Row="1">
+                        <Grid Grid.Row="0" RowDefinitions=".3*,.7*" RowSpacing="0">
+                            <VerticalStackLayout Grid.Row="0">
+                                <Label Text="Paid By Company"
+                                           TextColor="Black"
+                                           FontFamily="SpaceGL"
+                                           FontSize="16"/>
+                                <HorizontalStackLayout >
+                                    <Label Text="1,830,200"
+                                           TextColor="Black"
+                                           FontFamily="SpaceGB"
+                                           FontSize="32"/>
+                                    <Label Text="/last 365 day"
+                                           TextColor="Black"
+                                           FontFamily="SpaceGL"
+                                           Margin="0,18,0,0"/>
+
+                                </HorizontalStackLayout>
+                                <HorizontalStackLayout Margin="0,10,0,0" Grid.Row="1" VerticalOptions="End">
+                                    <ProgressBar WidthRequest="550"
+                                             ProgressColor="Yellow"
+                                             Progress="0.75"
+                                             ScaleY="10"/>
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid Grid.Row="0" RowDefinitions=".3*,.7*" RowSpacing="0">
+                                <VerticalStackLayout Grid.Row="0">
+                                    <Label Text="Unpaid"
+                                           TextColor="Black"
+                                           FontFamily="SpaceGL"
+                                           FontSize="16"/>
+                                    <HorizontalStackLayout >
+                                        <Label Text="83,175"
+                                           TextColor="Black"
+                                           FontFamily="SpaceGB"
+                                           FontSize="32"/>
+                                        <Label Text="/last 365 day"
+                                           TextColor="Black"
+                                           FontFamily="SpaceGL"
+                                           Margin="0,18,0,0"/>
+
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout Margin="0,10,0,0" Grid.Row="1" VerticalOptions="End">
+                                        <ProgressBar WidthRequest="550"
+                                             ProgressColor="White"
+                                             Progress="0.25"
+                                             ScaleY="10"/>
+                                    </HorizontalStackLayout>
+                                </VerticalStackLayout>
+
+                            </Grid>
+
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </Frame>
+            <Frame Grid.Column="1" Grid.Row="1"
+                   BackgroundColor="#444444"
+                   CornerRadius="40">
+                <Grid RowDefinitions=".2*,.2*,.6*" RowSpacing="20">
+                    <Grid Grid.Row="0" ColumnDefinitions=".3*,.7*">
+                        <HorizontalStackLayout Grid.Column="0" VerticalOptions="Center">
+                            <Label Text="Money Transfers"
+                                   FontFamily="SpaceGB"
+                                   TextColor="Black"
+                                   FontSize="28"/>
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Grid.Column="1" HorizontalOptions="End" Spacing="5">
+                            <Button BackgroundColor="#444444"
+                                    TextColor="#FFFFFF"
+                                    Text="Monthly"
+                                    BorderWidth="2"
+                                    WidthRequest="120"
+                                    CornerRadius="30"
+                                    BorderColor="#FFFFFF">
+                            </Button>
+
+                            <ImageButton BackgroundColor="#FFFFFF"
+                                         CornerRadius="30"
+                                         WidthRequest="70"
+                                         BorderWidth="4"
+                                         Aspect="Center"
+                                         BorderColor="White">
+                                <ImageButton.Source>
+                                    <FontImageSource
+                                        FontFamily="Icons"
+                                        Glyph="&#xE80F;"
+                                        Size="25"
+                                        Color="Black">
+
+                                    </FontImageSource>
+
+                                </ImageButton.Source>
+                            </ImageButton>
+                        </HorizontalStackLayout>
 
 
+                    </Grid>
+                    <Grid Grid.Row="1" HorizontalOptions="Start" >
+                        <HorizontalStackLayout Spacing="5">
+                            <Border HeightRequest="80"
+                                    WidthRequest="80"
+                                    Margin="0,0,0,0"
+                                    HorizontalOptions="Center"
+                                    StrokeShape="RoundRectangle 80,80,80,80">
+                                <ImageButton Source="person.png"
+                                       Aspect="AspectFill"/>
+                            </Border>
+                            <Border HeightRequest="80"
+                                    WidthRequest="80"
+                                    Margin="0,0,0,0"
+                                    HorizontalOptions="Center"
+                                    StrokeShape="RoundRectangle 80,80,80,80">
+                                <ImageButton Source="person.png"
+                                       Aspect="AspectFill"/>
+                            </Border>
+                            <Border HeightRequest="80"
+                                    WidthRequest="80"
+                                    Margin="0,0,0,0"
+                                    HorizontalOptions="Center"
+                                    StrokeShape="RoundRectangle 80,80,80,80">
+                                <ImageButton Source="person.png"
+                                       Aspect="AspectFill"/>
+                            </Border>
+                            <Border HeightRequest="80"
+                                    WidthRequest="80"
+                                    Margin="0,0,0,0"
+                                    HorizontalOptions="Center"
+                                    StrokeShape="RoundRectangle 80,80,80,80">
+                                <ImageButton Source="person.png"
+                                       Aspect="AspectFill"/>
+                            </Border>
+                            <Border HeightRequest="80"
+                                    Opacity="0.8"
+                                    WidthRequest="80"
+                                    Margin="0,0,0,0"
+                                    HorizontalOptions="Center"
+                                    StrokeShape="RoundRectangle 80,80,80,80">
+                                <Label Text="+"
+                                           FontSize="50"
+                                           TextColor="White"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                            </Border>
 
+                        </HorizontalStackLayout>
+
+                    </Grid>
+                    <Grid Grid.Row="2" RowDefinitions=".2*,.4*,.4*">
+                        <Grid Grid.Row="0" ColumnDefinitions="*,*,*" VerticalOptions="Center" >
+                            <Label Text="Remuneration"
+                                   FontFamily="SpaceGL"
+                                   TextColor="White"
+                                   Grid.Column="0"
+                                   HorizontalOptions="Center"
+                                   FontSize="22"/>
+                            <Label Text="Vacation"
+                                   Grid.Column="1"
+                                   FontFamily="SpaceGL"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontSize="22"/>
+                            <Label Text="Taxes"
+                                   Grid.Column="2"
+                                   FontFamily="SpaceGL"
+                                   TextColor="White"
+                                   HorizontalOptions="Center"
+                                   FontSize="22"/>
+                        </Grid>
+                        <Grid Grid.Row="1" ColumnDefinitions="*,*,*" VerticalOptions="Start">
+                            <Label Text="30,200$"
+                                   FontFamily="SpaceGB"
+                                   FontSize="30"
+                                   Grid.Column="0"
+                                   HorizontalOptions="Center"
+                                   TextColor="White"/>
+                            <Label Text="30,200$"
+                                   Grid.Column="1"
+                                   FontFamily="SpaceGB"
+                                   FontSize="30"
+                                   HorizontalOptions="Center"
+                                   TextColor="White"/>
+                            <Label Text="30,200$"
+                                   HorizontalOptions="Center"
+                                   Grid.Column="2"
+                                   FontFamily="SpaceGB"
+                                   FontSize="30"
+                                   TextColor="White"/>
+
+                        </Grid>
+                        <Grid Grid.Row="2" ColumnDefinitions="*,*,*" RowDefinitions=".6*,.4*" >
+                            <ProgressBar Grid.Row="0"
+                                         Grid.Column="0"
+                                         WidthRequest="120"
+                                         ProgressColor="White"
+                                         VerticalOptions="Start"
+                                         Progress="0.35"
+                                         ScaleY="10"/>
+                            <ProgressBar Grid.Row="0"
+                                         Grid.Column="1"
+                                         WidthRequest="120"
+                                         ProgressColor="White"
+                                         VerticalOptions="Start"
+                                         Progress="0.75"
+                                         ScaleY="10"/>
+                            <ProgressBar Grid.Row="0"
+                                         Grid.Column="2"
+                                         WidthRequest="120"
+                                         VerticalOptions="Start"
+                                         ProgressColor="White"
+                                         Progress="0.75"
+                                         ScaleY="10"/>
+                            <ImageButton BackgroundColor="#FFFFFF"
+                                         CornerRadius="20"
+                                         WidthRequest="50"
+                                         Margin="0,30,0,0"
+                                         BorderWidth="4"
+                                         Grid.Column="2"
+                                         Grid.Row="1"
+                                         VerticalOptions="End"
+                                         HorizontalOptions="End"
+                                         Aspect="Center"
+                                         BorderColor="White">
+                                <ImageButton.Source>
+                                    <FontImageSource
+                                        FontFamily="Icons"
+                                        Glyph="&#xE80D;"
+                                        Size="25"
+                                        Color="Black">
+
+                                    </FontImageSource>
+
+                                </ImageButton.Source>
+                            </ImageButton>
+
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+            </Frame>
+            <Frame Grid.Column="0" Grid.Row="1"
+                   BackgroundColor="White"
+                   CornerRadius="40">
+                <Grid RowDefinitions=".2*,.8*">
+                    <Grid Grid.Row="0" ColumnDefinitions=".4*,.6*" >
+                        <Grid Grid.Column="0">
+                            <Label Text="Debt Obligations"
+                                   FontFamily="SpaceGB"
+                                   TextColor="Black"
+                                   FontSize="24"
+                                   VerticalOptions="Center"/>
+                        </Grid>
+                        <Grid Grid.Column="1" VerticalOptions="Start" HorizontalOptions="End">
+                            <HorizontalStackLayout Spacing="5">
+                                <Button Text="Yearly"
+                                    FontFamily="SpaceGB"
+                                        BorderColor="Black"
+                                        BorderWidth="2"
+                                        CornerRadius="20"
+                                    BackgroundColor="White"
+                                    TextColor="Black"/>
+
+                                <ImageButton CornerRadius="20" Aspect="Center"  BorderColor="Black" BorderWidth="2" VerticalOptions="Center">
+                                    <ImageButton.Source>
+                                        <FontImageSource
+                                        FontFamily="Icons"
+                                        Glyph="&#xE809;"
+                                        Color="Black"
+                                        Size="28">
+                                        </FontImageSource>
+
+                                    </ImageButton.Source>
+
+                                </ImageButton>
+                                
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </Grid>
+
+                </Grid>
+            </Frame>
         </Grid>
     </Grid>
 

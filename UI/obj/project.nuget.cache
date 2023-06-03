@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D3GYgRvIX7I5H5FxX+N3H9KUqpY/9PXX3She4QFTSpz1E27H0ih+q0yExalHY6fPHV48YovFXt7z1htUIHdcjA==",
+  "dgSpecHash": "fvcPrHAXLu70l+aHR4C9DPpb3CFbXZHq5EkOonoiqQZFumbvGnLM0+GxY+4gb4Y6ST5fEUQy7/N2mrPdosvq/w==",
   "success": true,
   "projectFilePath": "/Users/hamed/Desktop/Accounting/UI/UI.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,12 @@
     "/Users/hamed/.nuget/packages/microsoft.maui.graphics/7.0.86/microsoft.maui.graphics.7.0.86.nupkg.sha512",
     "/Users/hamed/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
     "/Users/hamed/.nuget/packages/salaros.configparser/0.3.2/salaros.configparser.0.3.2.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/skiasharp/2.88.3/skiasharp.2.88.3.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/skiasharp.nativeassets.android/2.88.3/skiasharp.nativeassets.android.2.88.3.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/skiasharp.nativeassets.ios/2.88.3/skiasharp.nativeassets.ios.2.88.3.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/skiasharp.nativeassets.maccatalyst/2.88.3/skiasharp.nativeassets.maccatalyst.2.88.3.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/skiasharp.views/2.88.3/skiasharp.views.2.88.3.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/skiasharp.views.maui.core/2.88.3/skiasharp.views.maui.core.2.88.3.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlite-net-pcl/1.8.116/sqlite-net-pcl.1.8.116.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlitepclraw.bundle_green/2.1.5/sqlitepclraw.bundle_green.2.1.5.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlitepclraw.core/2.1.5/sqlitepclraw.core.2.1.5.nupkg.sha512",
