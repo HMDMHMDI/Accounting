@@ -1,11 +1,15 @@
 ﻿using Microsoft.Extensions.Logging;
 using SkiaSharp.Views.Maui;
+using Syncfusion.Maui.Charts;
+using Syncfusion.Maui.Core.Hosting;
+
 namespace UI;
 public static class MauiProgram
 {
     public static MauiApp CreateMauiApp()
     {
         var builder = MauiApp.CreateBuilder();
+        builder.ConfigureSyncfusionCore();
         builder.UseMauiApp<App>().ConfigureFonts(fonts =>
         {
             fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

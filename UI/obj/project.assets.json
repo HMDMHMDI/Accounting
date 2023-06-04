@@ -380,6 +380,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -2548,6 +2579,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
         }
       },
       "System.Buffers/4.4.0": {
@@ -4720,6 +4782,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -6888,6 +6981,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
         }
       },
       "System.Buffers/4.4.0": {
@@ -9060,6 +9184,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -11225,6 +11380,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
         }
       },
       "System.Buffers/4.4.0": {
@@ -13394,6 +13580,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android30.0/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll": {
+            "related": ".aar;.xml"
+          }
+        }
+      },
       "System.Buffers/4.4.0": {
         "type": "package",
         "compile": {
@@ -15549,6 +15766,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -15938,6 +16186,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -16331,6 +16610,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -16722,6 +17032,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -17111,6 +17452,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -17510,6 +17882,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -17905,6 +18308,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios13.6/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -18410,6 +18844,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -18806,6 +19271,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -19206,6 +19702,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -19602,6 +20129,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -20002,6 +20560,37 @@
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
         }
       },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Memory/4.5.3": {
         "type": "package",
         "compile": {
@@ -20395,6 +20984,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -20796,6 +21416,37 @@
         },
         "runtime": {
           "lib/net6.0/SQLitePCLRaw.provider.e_sqlite3.dll": {}
+        }
+      },
+      "Syncfusion.Maui.Charts/21.2.8": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Maui.Core": "21.2.8"
+        },
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Syncfusion.Maui.Core/21.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll": {},
+          "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.3": {
@@ -21679,6 +22330,94 @@
         "lib/netstandard2.0/SQLitePCLRaw.provider.sqlite3.dll",
         "sqlitepclraw.provider.sqlite3.2.1.5.nupkg.sha512",
         "sqlitepclraw.provider.sqlite3.nuspec"
+      ]
+    },
+    "Syncfusion.Maui.Charts/21.2.8": {
+      "sha512": "mQUtmBsxTU8z1BthOoQIB0JOxN7ul1WHZPiGOl41xQiXQGYlwXLt+2j8Nzdtye+0YUOkruHhiFNw+AUyh6V43Q==",
+      "type": "package",
+      "path": "syncfusion.maui.charts/21.2.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Charts.xml",
+        "lib/net6.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net6.0/Syncfusion.Maui.Charts.dll",
+        "lib/net6.0/Syncfusion.Maui.Charts.xml",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Charts.aar",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Charts.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Charts.xml",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Charts.xml",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Charts.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Charts.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Charts.xml",
+        "lib/net7.0/Syncfusion.Maui.Charts.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Charts.dll",
+        "lib/net7.0/Syncfusion.Maui.Charts.xml",
+        "syncfusion.maui.charts.21.2.8.nupkg.sha512",
+        "syncfusion.maui.charts.nuspec",
+        "syncfusion_logo.png"
+      ]
+    },
+    "Syncfusion.Maui.Core/21.2.8": {
+      "sha512": "uYIxqjFrXgaUWkwiVSRYrZpTJoi+Sxq2QHKqMdGgCT/tNcciQ9fDjJ0rTpgWLWien6bCZ4AdF7a8lnGCWj2+jg==",
+      "type": "package",
+      "path": "syncfusion.maui.core/21.2.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net6.0-android30.0/Syncfusion.Licensing.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-android30.0/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-ios13.6/Syncfusion.Licensing.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-ios13.6/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Licensing.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-maccatalyst13.5/Syncfusion.Maui.Core.xml",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Licensing.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net6.0/Syncfusion.Licensing.dll",
+        "lib/net6.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net6.0/Syncfusion.Maui.Core.dll",
+        "lib/net6.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-android30.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.aar",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-android30.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-ios13.6/Syncfusion.Licensing.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-ios13.6/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Licensing.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-maccatalyst13.5/Syncfusion.Maui.Core.xml",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Licensing.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0-windows10.0.19041.0/Syncfusion.Maui.Core.xml",
+        "lib/net7.0/Syncfusion.Licensing.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.deps.json",
+        "lib/net7.0/Syncfusion.Maui.Core.dll",
+        "lib/net7.0/Syncfusion.Maui.Core.xml",
+        "syncfusion.maui.core.21.2.8.nupkg.sha512",
+        "syncfusion.maui.core.nuspec",
+        "syncfusion_logo.png"
       ]
     },
     "System.Buffers/4.4.0": {
@@ -23802,6 +24541,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
       "SkiaSharp.Views.Maui.Core >= 2.88.3",
+      "Syncfusion.Maui.Charts >= 21.2.8",
       "WakaTime >= 8.1.11",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
@@ -23825,6 +24565,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
       "SkiaSharp.Views.Maui.Core >= 2.88.3",
+      "Syncfusion.Maui.Charts >= 21.2.8",
       "WakaTime >= 8.1.11"
     ],
     "net7.0-maccatalyst16.1": [
@@ -23837,6 +24578,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
       "SkiaSharp.Views.Maui.Core >= 2.88.3",
+      "Syncfusion.Maui.Charts >= 21.2.8",
       "WakaTime >= 8.1.11"
     ]
   },
@@ -23942,6 +24684,10 @@
           "SkiaSharp.Views.Maui.Core": {
             "target": "Package",
             "version": "[2.88.3, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[21.2.8, )"
           },
           "WakaTime": {
             "target": "Package",
@@ -24069,6 +24815,10 @@
             "target": "Package",
             "version": "[2.88.3, )"
           },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[21.2.8, )"
+          },
           "WakaTime": {
             "target": "Package",
             "version": "[8.1.11, )"
@@ -24139,6 +24889,10 @@
           "SkiaSharp.Views.Maui.Core": {
             "target": "Package",
             "version": "[2.88.3, )"
+          },
+          "Syncfusion.Maui.Charts": {
+            "target": "Package",
+            "version": "[21.2.8, )"
           },
           "WakaTime": {
             "target": "Package",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fvcPrHAXLu70l+aHR4C9DPpb3CFbXZHq5EkOonoiqQZFumbvGnLM0+GxY+4gb4Y6ST5fEUQy7/N2mrPdosvq/w==",
+  "dgSpecHash": "1cia5FeKvjZQYOvNg8xsmAXW3MqwwknzQ9tPlsav5I5BkMHvPrXg86T1BCQyNYuSto9+3dTUekV30nZM7UWfdA==",
   "success": true,
   "projectFilePath": "/Users/hamed/Desktop/Accounting/UI/UI.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,8 @@
     "/Users/hamed/.nuget/packages/sqlitepclraw.lib.e_sqlite3.android/2.1.5/sqlitepclraw.lib.e_sqlite3.android.2.1.5.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.5/sqlitepclraw.provider.e_sqlite3.2.1.5.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlitepclraw.provider.sqlite3/2.1.5/sqlitepclraw.provider.sqlite3.2.1.5.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/syncfusion.maui.charts/21.2.8/syncfusion.maui.charts.21.2.8.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/syncfusion.maui.core/21.2.8/syncfusion.maui.core.21.2.8.nupkg.sha512",
     "/Users/hamed/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/hamed/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
