@@ -233,7 +233,7 @@
                             <Button BackgroundColor="#252525"
                                     TextColor="White"
                                     Text="Auto"
-                                    BorderWidth="4"
+                                    BorderWidth="2"
                                     WidthRequest="120"
                                     CornerRadius="30"
                                 HorizontalOptions="End"
@@ -332,7 +332,7 @@
                             <ImageButton BackgroundColor="#FFFFFF"
                                          CornerRadius="35"
                                          WidthRequest="70"
-                                         BorderWidth="4"
+                                         BorderWidth="2"
                                          Aspect="Center"
                                          BorderColor="White">
                                 <ImageButton.Source>
@@ -431,7 +431,7 @@
                         <ImageButton     BackgroundColor="Black"
                                          CornerRadius="35"
                                          WidthRequest="70"
-                                         BorderWidth="4"
+                                         BorderWidth="2"
                                          Aspect="Center"
                                          BorderColor="Black">
                             <ImageButton.Source>

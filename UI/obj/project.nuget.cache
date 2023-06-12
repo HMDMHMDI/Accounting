@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1cia5FeKvjZQYOvNg8xsmAXW3MqwwknzQ9tPlsav5I5BkMHvPrXg86T1BCQyNYuSto9+3dTUekV30nZM7UWfdA==",
+  "dgSpecHash": "kILChqgZYZbuximnR6k6f4ovFW1kyYt4yB0OhX5leweWUeq6JGEnkircZJHfS7wAg1ybzlR2cPEeyoqSUTts6Q==",
   "success": true,
   "projectFilePath": "/Users/hamed/Desktop/Accounting/UI/UI.csproj",
   "expectedPackageFiles": [
+    "/Users/hamed/.nuget/packages/communitytoolkit.maui/5.2.0/communitytoolkit.maui.5.2.0.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/communitytoolkit.maui.core/5.2.0/communitytoolkit.maui.core.5.2.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -31,8 +33,8 @@
     "/Users/hamed/.nuget/packages/sqlitepclraw.lib.e_sqlite3.android/2.1.5/sqlitepclraw.lib.e_sqlite3.android.2.1.5.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.5/sqlitepclraw.provider.e_sqlite3.2.1.5.nupkg.sha512",
     "/Users/hamed/.nuget/packages/sqlitepclraw.provider.sqlite3/2.1.5/sqlitepclraw.provider.sqlite3.2.1.5.nupkg.sha512",
-    "/Users/hamed/.nuget/packages/syncfusion.maui.charts/21.2.8/syncfusion.maui.charts.21.2.8.nupkg.sha512",
-    "/Users/hamed/.nuget/packages/syncfusion.maui.core/21.2.8/syncfusion.maui.core.21.2.8.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/syncfusion.maui.charts/21.2.9/syncfusion.maui.charts.21.2.9.nupkg.sha512",
+    "/Users/hamed/.nuget/packages/syncfusion.maui.core/21.2.9/syncfusion.maui.core.21.2.9.nupkg.sha512",
     "/Users/hamed/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
     "/Users/hamed/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
     "/Users/hamed/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",

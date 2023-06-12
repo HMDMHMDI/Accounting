@@ -9,7 +9,7 @@ using Business.Category;
 
 public partial class CreateCategoryPage : ContentPage
 {
-    private readonly ICategoryRepository _repo;
+    //private readonly ICategoryRepository _repo;
     private int _id = 0;
 
     public CreateCategoryPage()

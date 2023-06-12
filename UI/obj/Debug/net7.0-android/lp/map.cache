@@ -1,4 +1,6 @@
 Business.dll
+CommunityToolkit.Maui.Core.dll
+CommunityToolkit.Maui.dll
 DataLayer.dll
 GoogleGson.dll
 Microsoft.Maui.Controls.Compatibility.dll
@@ -12,6 +14,8 @@ SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Maui.Core.dll
 SQLitePCLRaw.batteries_v2.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
+Syncfusion.Maui.Charts.dll
+Syncfusion.Maui.Core.dll
 Xamarin.Android.Glide.Annotations.dll
 Xamarin.Android.Glide.DiskLruCache.dll
 Xamarin.Android.Glide.dll
@@ -156,6 +160,8 @@ androidx.browser.browser.aar
 gifdecoder.aar
 glide.aar
 Business.aar
+CommunityToolkit.Maui.Core.aar
+CommunityToolkit.Maui.aar
 DataLayer.aar
 GoogleGson.aar
 Microsoft.Maui.Controls.aar
@@ -164,8 +170,6 @@ maui.aar
 Microsoft.Maui.aar
 Microsoft.Maui.Essentials.aar
 SQLitePCLRaw.lib.e_sqlite3.android.aar
-Xamarin.Google.Crypto.Tink.Android.aar
-Syncfusion.Maui.Charts.dll
-Syncfusion.Maui.Core.dll
 Syncfusion.Maui.Core.aar
 Syncfusion.Maui.Charts.aar
+Xamarin.Google.Crypto.Tink.Android.aar

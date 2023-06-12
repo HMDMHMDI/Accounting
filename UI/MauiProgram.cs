@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using SkiaSharp.Views.Maui;
 using Syncfusion.Maui.Charts;
+using CommunityToolkit.Maui;
 using Syncfusion.Maui.Core.Hosting;
 
 namespace UI;
@@ -10,6 +11,7 @@ public static class MauiProgram
     {
         var builder = MauiApp.CreateBuilder();
         builder.ConfigureSyncfusionCore();
+        builder.UseMauiCommunityToolkit();
         builder.UseMauiApp<App>().ConfigureFonts(fonts =>
         {
             fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -17,7 +19,7 @@ public static class MauiProgram
             fonts.AddFont("fontello.ttf", "Icons");
             fonts.AddFont("SpaceMono-Regular.ttf", "SpaceR");
             fonts.AddFont("SpaceMono-Bold.ttf", "SpaceB");
-            fonts.AddFont("SpaceGrotesk-Light.ttf", "SpaceGT");
+            fonts.AddFont("SpaceGrotesk-Light.ttf", "SpaceGL");
             fonts.AddFont("SpaceGrotesk-Regular.ttf", "SpaceGR");
             fonts.AddFont("SpaceGrotesk-Bold.ttf", "SpaceGB");
             fonts.AddFont("fontelloo.ttf", "Iconss");

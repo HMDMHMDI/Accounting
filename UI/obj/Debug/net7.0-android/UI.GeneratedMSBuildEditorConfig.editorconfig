@@ -56,8 +56,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = UI.Windows.Person.CreatePe
 build_metadata.AdditionalFiles.TargetPath = Windows/Person/CreatePersonPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Windows/Person/CreatePersonPage.xaml
 
+[/Users/hamed/Desktop/Accounting/UI/Windows/PopupViews/PopupProduct/PopupCreateProducts.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UI.Windows.PopupViews.PopupProduct.PopupCreateProducts.xaml
+build_metadata.AdditionalFiles.TargetPath = Windows/PopupViews/PopupProduct/PopupCreateProducts.xaml
+build_metadata.AdditionalFiles.RelativePath = Windows/PopupViews/PopupProduct/PopupCreateProducts.xaml
+
 [/Users/hamed/Desktop/Accounting/UI/Windows/Product/CreateProductPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = UI.Windows.Product.CreateProductPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Windows/Product/CreateProductPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Windows/Product/CreateProductPage.xaml
+
+[/Users/hamed/Desktop/Accounting/UI/Windows/ProductCategory/Products.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = UI.Windows.ProductCategory.Products.xaml
+build_metadata.AdditionalFiles.TargetPath = Windows/ProductCategory/Products.xaml
+build_metadata.AdditionalFiles.RelativePath = Windows/ProductCategory/Products.xaml

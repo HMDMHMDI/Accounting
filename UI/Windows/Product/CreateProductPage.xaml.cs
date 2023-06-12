@@ -3,7 +3,6 @@ using DataLayer.Entities;
 using DataLayer.Interfaces;
 using DataLayer.Services;
 using Business.Product;
-using static System.Net.Mime.MediaTypeNames;
 
 public partial class CreateProductPage : ContentPage
 {

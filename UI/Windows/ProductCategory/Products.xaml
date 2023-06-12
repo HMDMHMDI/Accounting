@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.Windows.ProductCategory.Products"
+             Title="Products Management"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Core.Views;assembly=CommunityToolkit.Maui.Core" 
+             BackgroundColor="#0d0d0d"
+             xmlns:models="clr-namespace:DataLayer.Entities;assembly=DataLayer"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts">
+    <Grid RowDefinitions=".1*,.45*,.45*" BackgroundColor="#0d0d0d" >
+        <Grid Grid.Row="0" ColumnDefinitions=".3* , .7*" ColumnSpacing="10">
+            <SearchBar Placeholder="Search Products"
+                       Grid.Column="0"
+                       BackgroundColor="#0d0d0d"
+                       VerticalOptions="Center"
+                       PlaceholderColor="White"
+                       TextColor="White"
+                       CancelButtonColor="White"/>
+        </Grid>
+        <Grid Grid.Row="1" ColumnDefinitions=".4*,.6*" ColumnSpacing="10">
+            <Frame Grid.Column="0">
+                <Button Clicked="Button_Clicked"
+                        Text="Hi">
+                </Button>
+
+            </Frame>
+            <Frame Grid.Column="1" BackgroundColor="#252525">
+                <chart:SfCartesianChart >
+
+                            <chart:SfCartesianChart.XAxes>
+                                <chart:CategoryAxis ShowMajorGridLines="False"/>
+                            </chart:SfCartesianChart.XAxes>
+
+                            <chart:SfCartesianChart.YAxes>
+                                <chart:NumericalAxis ShowMajorGridLines="False"/>
+                            </chart:SfCartesianChart.YAxes>
+
+                            <chart:SplineAreaSeries x:Name="chart"
+							XBindingPath="Name"
+                                                   
+							YBindingPath="Price">
+
+
+                            </chart:SplineAreaSeries>
+
+                        </chart:SfCartesianChart>
+
+            </Frame>
+        </Grid>
+        <Grid Grid.Row="2" ColumnDefinitions=".4*,.6*" ColumnSpacing="10">
+            <CollectionView ItemsSource="{Binding .}"
+                            IsGrouped="True">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            
+
+                        </Grid>
+
+                    </DataTemplate>
+
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+
+        </Grid>
+    </Grid>
+</ContentPage>

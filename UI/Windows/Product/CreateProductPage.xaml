@@ -30,7 +30,6 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
 
-
                     <ViewCell>
                         <SwipeView>
                             <SwipeView.LeftItems>

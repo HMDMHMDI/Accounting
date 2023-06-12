@@ -5,6 +5,7 @@ using UI.Windows.Person;
 using UI.Windows.Product;
 using Syncfusion.Maui.Charts;
 using UI.Windows.Category;
+using UI.Windows.ProductCategory;
 using DataLayer.Entities;
 
 namespace UI;
@@ -35,7 +36,7 @@ public partial class MainPage : ContentPage
 
     async void Button_Clicked_2(System.Object sender, System.EventArgs e)
     {
-        await Navigation.PushAsync(new CreateCategoryPage());
+        await Navigation.PushAsync(new Products());
     }
 }
 

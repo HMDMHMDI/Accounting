@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UI.PopupCreateProducts"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+           CanBeDismissedByTappingOutsideOfPopup="True" >
+    <Frame BackgroundColor="#252525"
+                   CornerRadius="10">
+        <Grid RowDefinitions=".25*,.25*,.2*,.3*" RowSpacing="5">
+            <Grid Grid.Row="0" VerticalOptions="Start">
+                <VerticalStackLayout HorizontalOptions="Start" Spacing="5">
+                    <Label Text="Product Name"
+                           TextColor="White"
+                           Margin="5,0,0,0"
+                           FontSize="12"
+                           FontFamily="SpaceGL"/>
+                    <Border WidthRequest="300"
+                                   StrokeShape="RoundRectangle 10,10,10,10">
+                        <Entry WidthRequest="300"
+                                      TextColor="White"
+                                      Placeholder=" Enter Name"
+                                      x:Name="txtName"
+                                      FontFamily="SpaceGL"
+                                      HorizontalTextAlignment="Start"
+                                      PlaceholderColor="White">
+                        </Entry>
+
+                    </Border>
+
+
+                </VerticalStackLayout>
+
+            </Grid>
+            <Grid Grid.Row="1" ColumnDefinitions="*,*" VerticalOptions="Start" ColumnSpacing="5">
+                <Grid Grid.Column="0" >
+                    <VerticalStackLayout HorizontalOptions="Start" Spacing="5">
+                        <Label Text="Product Price"
+                                  TextColor="White"
+                                  Margin="0,0,0,0"
+                                  FontSize="12"
+                                  FontFamily="SpaceGL"/>
+                        <Border WidthRequest="300"
+                                   StrokeShape="RoundRectangle 10,10,10,10">
+                            <Entry WidthRequest="300"
+                                   Placeholder=" Enter Price"
+                                   TextColor="White"
+                                   x:Name="txtPrice"
+                                   FontFamily="SpaceGL"
+                                   HorizontalTextAlignment="Start"
+                                   PlaceholderColor="White">
+                            </Entry>
+
+                        </Border>
+
+
+                    </VerticalStackLayout>
+
+                </Grid>
+                <Grid Grid.Column="1" VerticalOptions="Start">
+                    <VerticalStackLayout HorizontalOptions="Start" Spacing="5">
+                        <Label Text="Product Count"
+                               TextColor="White"
+                               Margin="5,0,0,0"
+                               FontSize="12"
+                               FontFamily="SpaceGL"/>
+                        <Border WidthRequest="300"
+                                StrokeShape="RoundRectangle 10,10,10,10">
+                            <Entry WidthRequest="300"
+                                   Placeholder=" Enter Count"
+                                   TextColor="White"
+                                   x:Name="txtCount"
+                                   Keyboard="Numeric"
+                                   HorizontalTextAlignment="Start"
+                                   FontFamily="SpaceGL"
+                                   PlaceholderColor="White">
+
+
+                            </Entry>
+
+                        </Border>
+
+
+                    </VerticalStackLayout>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="2" HorizontalOptions="Start">
+                <HorizontalStackLayout Spacing="10">
+                    <Label Text=" Product Category : "
+                                   VerticalOptions="Center"
+                                   TextColor="White"
+                                   FontFamily="SpaceGB"/>
+                    <Picker x:Name="pickC"
+                                    BackgroundColor="White"
+                                    WidthRequest="150"
+                                    VerticalOptions="Center"
+                                    Title="Select a Category"
+                            ItemDisplayBinding="{Binding Title}">
+                    </Picker>
+                </HorizontalStackLayout>
+
+
+
+            </Grid>
+            <Grid Grid.Row="3" RowDefinitions="*,*" >
+                <HorizontalStackLayout Grid.Row="0" Spacing="10" >
+                    <Label Text=" Product Tags : "
+                                   VerticalOptions="Center"
+                                   TextColor="White"
+                                   FontFamily="SpaceGB"/>
+                    <Picker x:Name="pickT"
+                                    BackgroundColor="White"
+                                    WidthRequest="150"
+                                    VerticalOptions="Center"
+                                    Margin="32,0,0,0"
+                                    Title="Select a Tag">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>men</x:String>
+                                <x:String>women</x:String>
+                                <x:String>accessory</x:String>
+
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+
+                </HorizontalStackLayout>
+                <Grid Grid.Row="1" ColumnDefinitions=".3*,.4*,.3*" VerticalOptions="End">
+                    <HorizontalStackLayout Grid.Column="1" VerticalOptions="End" HorizontalOptions="Center">
+                        <Button Text="ADD Data"
+                                        TextColor="White"
+                                        BorderColor="White"
+                                        Margin="0,10,0,0"
+                                        Clicked="btn_AddP"
+                                        BackgroundColor="#252525"
+                                        BorderWidth="2"/>
+                        <Button Text="Cancel"
+                                TextColor="white"
+                                BorderColor="White"
+                                Clicked="btn_Cancel"
+                                BackgroundColor="#252525"
+                                BorderWidth="2"
+                                Margin="0,10,0,0"/>
+                    </HorizontalStackLayout>
+
+                </Grid>
+            </Grid>
+        </Grid>
+    </Frame>
+</mct:Popup>
