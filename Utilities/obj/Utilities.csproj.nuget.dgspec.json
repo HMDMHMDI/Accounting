@@ -24,7 +24,6 @@
           "net7.0-maccatalyst"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,10 +83,6 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
-            },
-            "WakaTime": {
-              "target": "Package",
-              "version": "[8.1.11, )"
             }
           },
           "imports": [
@@ -115,7 +110,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         },
         "net7.0-android33.0": {
           "targetAlias": "net7.0-android",
@@ -149,10 +144,6 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
-            },
-            "WakaTime": {
-              "target": "Package",
-              "version": "[8.1.11, )"
             },
             "Xamarin.Android.Glide": {
               "suppressParent": "All",
@@ -249,7 +240,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -283,10 +274,6 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
-            },
-            "WakaTime": {
-              "target": "Package",
-              "version": "[8.1.11, )"
             }
           },
           "imports": [
@@ -317,7 +304,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -351,10 +338,6 @@
               "target": "Package",
               "version": "[7.0.86, )",
               "autoReferenced": true
-            },
-            "WakaTime": {
-              "target": "Package",
-              "version": "[8.1.11, )"
             }
           },
           "imports": [
@@ -386,7 +369,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
         }
       }
     }

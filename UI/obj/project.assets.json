@@ -44,15 +44,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -233,31 +224,6 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -475,19 +441,6 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -2220,8 +2173,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -2235,7 +2187,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -2287,15 +2238,6 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -2478,31 +2420,6 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -2705,19 +2622,6 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -4450,8 +4354,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -4465,7 +4368,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -4517,15 +4419,6 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -4708,31 +4601,6 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -4935,19 +4803,6 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -6680,8 +6535,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -6695,7 +6549,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -6747,15 +6600,6 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -6938,31 +6782,6 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -7165,19 +6984,6 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -8910,8 +8716,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -8925,7 +8730,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -8977,15 +8781,6 @@
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -9168,31 +8963,6 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -9395,19 +9165,6 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Xamarin.Android.Glide/4.13.2.2": {
         "type": "package",
         "dependencies": {
@@ -11140,8 +10897,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -11155,7 +10911,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -11209,15 +10964,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -11398,31 +11144,6 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -11620,19 +11341,6 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -13367,8 +13075,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -13382,7 +13089,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -13436,15 +13142,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/MonoAndroid10/_._": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -13625,31 +13322,6 @@
           "lib/net7.0-android33.0/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -13847,19 +13519,6 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
         }
       },
       "Xamarin.Android.Glide/4.13.2.2": {
@@ -15594,8 +15253,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -15609,7 +15267,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -15648,15 +15305,6 @@
           "lib/net7.0-ios16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -15839,31 +15487,6 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -16046,25 +15669,11 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -16078,7 +15687,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -16119,15 +15727,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16310,31 +15909,6 @@
           }
         }
       },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        }
-      },
       "SkiaSharp/2.88.3": {
         "type": "package",
         "dependencies": {
@@ -16497,25 +16071,11 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -16529,7 +16089,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -16570,15 +16129,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16761,31 +16311,6 @@
           }
         }
       },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        }
-      },
       "SkiaSharp/2.88.3": {
         "type": "package",
         "dependencies": {
@@ -16948,25 +16473,11 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -16980,7 +16491,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -17021,15 +16531,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17212,31 +16713,6 @@
           }
         }
       },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        }
-      },
       "SkiaSharp/2.88.3": {
         "type": "package",
         "dependencies": {
@@ -17399,25 +16875,11 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -17431,7 +16893,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -17472,15 +16933,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17663,31 +17115,6 @@
           }
         }
       },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        }
-      },
       "SkiaSharp/2.88.3": {
         "type": "package",
         "dependencies": {
@@ -17850,25 +17277,11 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -17882,7 +17295,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -17923,15 +17335,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18114,31 +17517,6 @@
           }
         }
       },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        }
-      },
       "SkiaSharp/2.88.3": {
         "type": "package",
         "dependencies": {
@@ -18307,25 +17685,11 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -18339,7 +17703,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -18380,15 +17743,6 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
-        }
-      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18569,31 +17923,6 @@
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -18764,25 +18093,11 @@
           }
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -18796,7 +18111,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -18835,15 +18149,6 @@
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -19026,31 +18331,6 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -19319,25 +18599,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -19351,7 +18617,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -19390,15 +18655,6 @@
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -19581,31 +18837,6 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -19777,25 +19008,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -19809,7 +19026,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -19848,15 +19064,6 @@
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -20039,31 +19246,6 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -20235,25 +19417,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -20267,7 +19435,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -20306,15 +19473,6 @@
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -20497,31 +19655,6 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -20693,25 +19826,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -20725,7 +19844,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -20764,15 +19882,6 @@
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -20955,31 +20064,6 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -21151,25 +20235,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -21183,7 +20253,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -21222,15 +20291,6 @@
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -21413,31 +20473,6 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -21606,25 +20641,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -21638,7 +20659,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -21677,15 +20697,6 @@
           "lib/net7.0-maccatalyst16.1/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
-        }
-      },
-      "Microsoft.CSharp/4.5.0": {
-        "type": "package",
-        "compile": {
-          "ref/netcoreapp2.0/_._": {}
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/_._": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -21868,31 +20879,6 @@
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
           }
-        }
-      },
-      "Newtonsoft.Json/12.0.2": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Salaros.ConfigParser/0.3.2": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0"
-        },
-        "compile": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/ConfigParser.dll": {}
         }
       },
       "SkiaSharp/2.88.3": {
@@ -22067,25 +21053,11 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "WakaTime/8.1.11": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "12.0.2",
-          "Salaros.ConfigParser": "0.3.2"
-        },
-        "compile": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/WakaTime.dll": {}
-        }
-      },
       "Business/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "DataLayer": "1.0.0",
-          "WakaTime": "8.1.11"
+          "DataLayer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -22099,7 +21071,6 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "SQLitePCLRaw.bundle_green": "2.1.5",
-          "WakaTime": "8.1.11",
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
@@ -22183,74 +21154,6 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
-      ]
-    },
-    "Microsoft.CSharp/4.5.0": {
-      "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "type": "package",
-      "path": "microsoft.csharp/4.5.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/MonoAndroid10/_._",
-        "lib/MonoTouch10/_._",
-        "lib/net45/_._",
-        "lib/netcore50/Microsoft.CSharp.dll",
-        "lib/netcoreapp2.0/_._",
-        "lib/netstandard1.3/Microsoft.CSharp.dll",
-        "lib/netstandard2.0/Microsoft.CSharp.dll",
-        "lib/portable-net45+win8+wp8+wpa81/_._",
-        "lib/uap10.0.16299/_._",
-        "lib/win8/_._",
-        "lib/wp80/_._",
-        "lib/wpa81/_._",
-        "lib/xamarinios10/_._",
-        "lib/xamarinmac20/_._",
-        "lib/xamarintvos10/_._",
-        "lib/xamarinwatchos10/_._",
-        "microsoft.csharp.4.5.0.nupkg.sha512",
-        "microsoft.csharp.nuspec",
-        "ref/MonoAndroid10/_._",
-        "ref/MonoTouch10/_._",
-        "ref/net45/_._",
-        "ref/netcore50/Microsoft.CSharp.dll",
-        "ref/netcore50/Microsoft.CSharp.xml",
-        "ref/netcore50/de/Microsoft.CSharp.xml",
-        "ref/netcore50/es/Microsoft.CSharp.xml",
-        "ref/netcore50/fr/Microsoft.CSharp.xml",
-        "ref/netcore50/it/Microsoft.CSharp.xml",
-        "ref/netcore50/ja/Microsoft.CSharp.xml",
-        "ref/netcore50/ko/Microsoft.CSharp.xml",
-        "ref/netcore50/ru/Microsoft.CSharp.xml",
-        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
-        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
-        "ref/netcoreapp2.0/_._",
-        "ref/netstandard1.0/Microsoft.CSharp.dll",
-        "ref/netstandard1.0/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
-        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
-        "ref/netstandard2.0/Microsoft.CSharp.dll",
-        "ref/netstandard2.0/Microsoft.CSharp.xml",
-        "ref/portable-net45+win8+wp8+wpa81/_._",
-        "ref/uap10.0.16299/_._",
-        "ref/win8/_._",
-        "ref/wp80/_._",
-        "ref/wpa81/_._",
-        "ref/xamarinios10/_._",
-        "ref/xamarinmac20/_._",
-        "ref/xamarintvos10/_._",
-        "ref/xamarinwatchos10/_._",
-        "useSharedDesignerContext.txt",
-        "version.txt"
       ]
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
@@ -22588,50 +21491,6 @@
         "lib/netstandard2.1/Microsoft.Maui.Graphics.xml",
         "microsoft.maui.graphics.7.0.86.nupkg.sha512",
         "microsoft.maui.graphics.nuspec"
-      ]
-    },
-    "Newtonsoft.Json/12.0.2": {
-      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
-      "type": "package",
-      "path": "newtonsoft.json/12.0.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
-      ]
-    },
-    "Salaros.ConfigParser/0.3.2": {
-      "sha512": "50XCtLlCTzW0SV2yFQmrikeLJ1EjRjNAcaHOQI6bIMbO2jALjgf1y+1vBsldWhJ3lPqPVV+s+q+ox3wzKh+OHQ==",
-      "type": "package",
-      "path": "salaros.configparser/0.3.2",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/ConfigParser.dll",
-        "lib/net45/ConfigParser.dll",
-        "lib/netstandard2.0/ConfigParser.dll",
-        "salaros.configparser.0.3.2.nupkg.sha512",
-        "salaros.configparser.nuspec"
       ]
     },
     "SkiaSharp/2.88.3": {
@@ -23170,20 +22029,6 @@
         "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
         "system.runtime.interopservices.nfloat.internal.nuspec",
         "useSharedDesignerContext.txt"
-      ]
-    },
-    "WakaTime/8.1.11": {
-      "sha512": "fk+AxpNp+ViyS+4pNdXzS8RSdrSl1WkY/+dbzbU+bxQXTfr2eyARHCT2gx/Iy9w+8pN4+VAAqka+CoA8zjYh2A==",
-      "type": "package",
-      "path": "wakatime/8.1.11",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/WakaTime.dll",
-        "lib/net45/WakaTime.dll",
-        "lib/netstandard2.0/WakaTime.dll",
-        "wakatime.8.1.11.nupkg.sha512",
-        "wakatime.nuspec"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -25207,7 +24052,6 @@
       "Microsoft.Maui.Graphics >= 7.0.86",
       "SkiaSharp.Views.Maui.Core >= 2.88.3",
       "Syncfusion.Maui.Charts >= 21.2.9",
-      "WakaTime >= 8.1.11",
       "Xamarin.Android.Glide >= 4.13.2.2",
       "Xamarin.AndroidX.Browser >= 1.4.0.3",
       "Xamarin.AndroidX.Legacy.Support.V4 >= 1.0.0.15",
@@ -25231,8 +24075,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
       "SkiaSharp.Views.Maui.Core >= 2.88.3",
-      "Syncfusion.Maui.Charts >= 21.2.9",
-      "WakaTime >= 8.1.11"
+      "Syncfusion.Maui.Charts >= 21.2.9"
     ],
     "net7.0-maccatalyst16.1": [
       "Business >= 1.0.0",
@@ -25245,8 +24088,7 @@
       "Microsoft.Extensions.Logging.Debug >= 7.0.0",
       "Microsoft.Maui.Graphics >= 7.0.86",
       "SkiaSharp.Views.Maui.Core >= 2.88.3",
-      "Syncfusion.Maui.Charts >= 21.2.9",
-      "WakaTime >= 8.1.11"
+      "Syncfusion.Maui.Charts >= 21.2.9"
     ]
   },
   "packageFolders": {
@@ -25271,7 +24113,6 @@
         "net7.0-maccatalyst"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -25360,10 +24201,6 @@
             "target": "Package",
             "version": "[21.2.9, )"
           },
-          "WakaTime": {
-            "target": "Package",
-            "version": "[8.1.11, )"
-          },
           "Xamarin.Android.Glide": {
             "target": "Package",
             "version": "[4.13.2.2, )",
@@ -25448,7 +24285,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       },
       "net7.0-ios16.1": {
         "targetAlias": "net7.0-ios",
@@ -25493,10 +24330,6 @@
           "Syncfusion.Maui.Charts": {
             "target": "Package",
             "version": "[21.2.9, )"
-          },
-          "WakaTime": {
-            "target": "Package",
-            "version": "[8.1.11, )"
           }
         },
         "imports": [
@@ -25527,7 +24360,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       },
       "net7.0-maccatalyst16.1": {
         "targetAlias": "net7.0-maccatalyst",
@@ -25572,10 +24405,6 @@
           "Syncfusion.Maui.Charts": {
             "target": "Package",
             "version": "[21.2.9, )"
-          },
-          "WakaTime": {
-            "target": "Package",
-            "version": "[8.1.11, )"
           }
         },
         "imports": [
@@ -25607,7 +24436,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
